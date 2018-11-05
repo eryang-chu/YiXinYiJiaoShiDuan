@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DED265CB16F9DFC211D30626 /* libPods-YiXinYiJiaoShiDuan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D43A55CE31A0C6FB4B895E34 /* libPods-YiXinYiJiaoShiDuan.a */; };
 		FF1838132182AC2400C8E9B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1838122182AC2400C8E9B8 /* AppDelegate.m */; };
 		FF1838162182AC2400C8E9B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1838152182AC2400C8E9B8 /* ViewController.m */; };
 		FF1838192182AC2400C8E9B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1838172182AC2400C8E9B8 /* Main.storyboard */; };
@@ -15,6 +16,212 @@
 		FF1838212182AC2600C8E9B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1838202182AC2600C8E9B8 /* main.m */; };
 		FF18382B2182AC2600C8E9B8 /* YiXinYiJiaoShiDuanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF18382A2182AC2600C8E9B8 /* YiXinYiJiaoShiDuanTests.m */; };
 		FF1838362182AC2600C8E9B8 /* YiXinYiJiaoShiDuanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1838352182AC2600C8E9B8 /* YiXinYiJiaoShiDuanUITests.m */; };
+		FF8991F12186A3E0009F135E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FF8991F02186A3DF009F135E /* Podfile */; };
+		FF89920C2186A6DB009F135E /* FWEB_NetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991F52186A6DB009F135E /* FWEB_NetWorkHelper.m */; };
+		FF89920D2186A6DB009F135E /* UIImage+FWEB_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991F82186A6DB009F135E /* UIImage+FWEB_Extension.m */; };
+		FF89920E2186A6DB009F135E /* UIColor+FWEB_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991F92186A6DB009F135E /* UIColor+FWEB_Extension.m */; };
+		FF89920F2186A6DB009F135E /* NSString+FWEB_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991FA2186A6DB009F135E /* NSString+FWEB_Extension.m */; };
+		FF8992102186A6DB009F135E /* NSDictionary+FWEB_NullDict.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991FB2186A6DB009F135E /* NSDictionary+FWEB_NullDict.m */; };
+		FF8992112186A6DB009F135E /* UIView+FWEB_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8991FD2186A6DB009F135E /* UIView+FWEB_Extension.m */; };
+		FF8992122186A6DB009F135E /* NSArray+FWEB_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992002186A6DB009F135E /* NSArray+FWEB_Extension.m */; };
+		FF8992132186A6DB009F135E /* UITableView+IJXF_Reflash.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992042186A6DB009F135E /* UITableView+IJXF_Reflash.m */; };
+		FF8992142186A6DB009F135E /* FWEB_CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992062186A6DB009F135E /* FWEB_CommonTools.m */; };
+		FF8992362186A71C009F135E /* JZD_StarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992182186A71B009F135E /* JZD_StarView.m */; };
+		FF8992372186A71C009F135E /* XHStarRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89921A2186A71B009F135E /* XHStarRateView.m */; };
+		FF8992382186A71C009F135E /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89921D2186A71B009F135E /* UIView+Toast.m */; };
+		FF8992392186A71C009F135E /* SBPageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992202186A71B009F135E /* SBPageFlowView.m */; };
+		FF89923A2186A71C009F135E /* KDCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992222186A71B009F135E /* KDCycleBannerView.m */; };
+		FF89923B2186A71C009F135E /* SGSegmentedControlStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992292186A71B009F135E /* SGSegmentedControlStatic.m */; };
+		FF89923C2186A71C009F135E /* UIView+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89922E2186A71B009F135E /* UIView+SGExtension.m */; };
+		FF89923D2186A71C009F135E /* SGSegmentedControlBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992302186A71B009F135E /* SGSegmentedControlBottomView.m */; };
+		FF89923E2186A71C009F135E /* SGImageButton_Horizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992312186A71B009F135E /* SGImageButton_Horizontal.m */; };
+		FF89923F2186A71C009F135E /* SGImageButton_Vertical.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992322186A71B009F135E /* SGImageButton_Vertical.m */; };
+		FF8992402186A71C009F135E /* SGSegmentedControlDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992342186A71B009F135E /* SGSegmentedControlDefault.m */; };
+		FF8992412186A71C009F135E /* SGNavigationItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992352186A71B009F135E /* SGNavigationItemTitleView.m */; };
+		FF8992482186B183009F135E /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992462186B183009F135E /* MainTabBarController.m */; };
+		FF89924E2186B35F009F135E /* FWEB_BasicApi.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89924C2186B35E009F135E /* FWEB_BasicApi.m */; };
+		FF8992552186B3EA009F135E /* IJSD_BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992542186B3EA009F135E /* IJSD_BasicViewController.m */; };
+		FF8992592186B406009F135E /* IJSD_BasicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992572186B406009F135E /* IJSD_BasicTableViewCell.m */; };
+		FF89925A2186B406009F135E /* IJSD_BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992582186B406009F135E /* IJSD_BasicTableViewCell.xib */; };
+		FF8992692186B58B009F135E /* IJSD_CallNamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992682186B58B009F135E /* IJSD_CallNamesViewController.m */; };
+		FF89926B2186B5A5009F135E /* CallNames.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89926A2186B5A5009F135E /* CallNames.storyboard */; };
+		FF89926E2186B5C1009F135E /* IJSD_MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89926D2186B5C1009F135E /* IJSD_MessageViewController.m */; };
+		FF8992702186B5CE009F135E /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89926F2186B5CE009F135E /* Message.storyboard */; };
+		FF8992732186B5E0009F135E /* IJSD_AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992722186B5E0009F135E /* IJSD_AccountViewController.m */; };
+		FF8992752186B5EE009F135E /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8992742186B5EE009F135E /* Account.storyboard */; };
+		FF8992782186B5FB009F135E /* IJSD_HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992772186B5FB009F135E /* IJSD_HomeViewController.m */; };
+		FF89927A2186B607009F135E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8992792186B607009F135E /* Home.storyboard */; };
+		FF89927E2186F0DA009F135E /* IJSD_AccountSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89927D2186F0DA009F135E /* IJSD_AccountSetViewController.m */; };
+		FF8992822186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89927F2186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.xib */; };
+		FF8992832186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992802186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.m */; };
+		FF8992862186F2D2009F135E /* JZD_AccountSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992852186F2D1009F135E /* JZD_AccountSetView.m */; };
+		FF89928A2186F605009F135E /* JZD_AccountSetPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992882186F604009F135E /* JZD_AccountSetPromptView.m */; };
+		FF89928B2186F605009F135E /* JZD_AccountSetPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992892186F604009F135E /* JZD_AccountSetPromptView.xib */; };
+		FF89928E2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89928C2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.m */; };
+		FF8992922186FB19009F135E /* JZD_FirstLoginPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992902186FB19009F135E /* JZD_FirstLoginPromptView.m */; };
+		FF8992932186FB19009F135E /* JZD_FirstLoginPromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992912186FB19009F135E /* JZD_FirstLoginPromptView.xib */; };
+		FF8992962186FB41009F135E /* JZD_AccountSetModifyPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992952186FB41009F135E /* JZD_AccountSetModifyPwdView.m */; };
+		FF89929A2186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992982186FB78009F135E /* JZD_AccountSetModifyPwdTableViewCell.m */; };
+		FF89929B2186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992992186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.xib */; };
+		FF89929F2186FB97009F135E /* JZD_LoginButtonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89929D2186FB96009F135E /* JZD_LoginButtonTableViewCell.m */; };
+		FF8992A02186FB97009F135E /* JZD_LoginButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89929E2186FB97009F135E /* JZD_LoginButtonTableViewCell.xib */; };
+		FF8992A421870140009F135E /* JZD_ServeClassConditionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992A22187013F009F135E /* JZD_ServeClassConditionListTableViewCell.xib */; };
+		FF8992A521870140009F135E /* JZD_ServeClassConditionListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992A321870140009F135E /* JZD_ServeClassConditionListTableViewCell.m */; };
+		FF8992A821870178009F135E /* JZD_ServeClassConditionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992A721870178009F135E /* JZD_ServeClassConditionListView.m */; };
+		FF8992AB21870195009F135E /* JZD_ServeClassConditionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992AA21870195009F135E /* JZD_ServeClassConditionListViewController.m */; };
+		FF8992AF21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992AD21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.m */; };
+		FF8992B021870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992AE21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.xib */; };
+		FF8992B321870A54009F135E /* JZD_ServeClassConditionDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992B121870A53009F135E /* JZD_ServeClassConditionDetailView.m */; };
+		FF8992B621870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992B521870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.m */; };
+		FF8992B921871309009F135E /* IJSD_AccountMyEvaluateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992B821871309009F135E /* IJSD_AccountMyEvaluateViewController.m */; };
+		FF8992BD21873211009F135E /* JZD_FirstLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992BA21873211009F135E /* JZD_FirstLoginViewController.xib */; };
+		FF8992BE21873211009F135E /* JZD_FirstLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992BC21873211009F135E /* JZD_FirstLoginViewController.m */; };
+		FF8992C92187331D009F135E /* JZD_FirstLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992C72187331C009F135E /* JZD_FirstLoginView.m */; };
+		FF8992CD21873357009F135E /* JZD_PhoneCodePwdTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992CA21873356009F135E /* JZD_PhoneCodePwdTableViewCell.xib */; };
+		FF8992CE21873357009F135E /* JZD_PhoneCodePwdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992CC21873357009F135E /* JZD_PhoneCodePwdTableViewCell.m */; };
+		FF8992D221873385009F135E /* JZD_QuickLoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992D021873385009F135E /* JZD_QuickLoginTableViewCell.m */; };
+		FF8992D321873385009F135E /* JZD_QuickLoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992D121873385009F135E /* JZD_QuickLoginTableViewCell.xib */; };
+		FF8992D721873526009F135E /* JZD_FirstLoginHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992D521873525009F135E /* JZD_FirstLoginHeaderView.m */; };
+		FF8992D821873526009F135E /* JZD_FirstLoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992D621873526009F135E /* JZD_FirstLoginHeaderView.xib */; };
+		FF8992DC21873927009F135E /* JZD_ForgetPwdPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992DA21873926009F135E /* JZD_ForgetPwdPhoneViewController.m */; };
+		FF8992DD21873927009F135E /* JZD_ForgetPwdPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992DB21873927009F135E /* JZD_ForgetPwdPhoneViewController.xib */; };
+		FF8992E021873959009F135E /* JZD_ForgetPwdPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992DE21873958009F135E /* JZD_ForgetPwdPhoneView.m */; };
+		FF8992E42187FDD1009F135E /* JZD_ForgetPwdCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992E22187FDD0009F135E /* JZD_ForgetPwdCodeViewController.m */; };
+		FF8992E52187FDD1009F135E /* JZD_ForgetPwdCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992E32187FDD1009F135E /* JZD_ForgetPwdCodeViewController.xib */; };
+		FF8992E82187FE03009F135E /* JZD_ForgetPwdCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992E72187FE03009F135E /* JZD_ForgetPwdCodeView.m */; };
+		FF8992EF218803EE009F135E /* JZD_PwdOrCodeLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992EC218803ED009F135E /* JZD_PwdOrCodeLoginViewController.xib */; };
+		FF8992F0218803EE009F135E /* JZD_PwdOrCodeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992ED218803ED009F135E /* JZD_PwdOrCodeLoginViewController.m */; };
+		FF8992F321880433009F135E /* JZD_PwdOrCodeLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992F121880432009F135E /* JZD_PwdOrCodeLoginView.m */; };
+		FF8992F7218804A8009F135E /* JZD_LoginHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992F4218804A7009F135E /* JZD_LoginHeaderView.m */; };
+		FF8992F8218804A8009F135E /* JZD_LoginHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992F5218804A7009F135E /* JZD_LoginHeaderView.xib */; };
+		FF8992FC21883514009F135E /* IJSD_CallNamesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992FA21883514009F135E /* IJSD_CallNamesTableViewCell.m */; };
+		FF8992FD21883514009F135E /* IJSD_CallNamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8992FB21883514009F135E /* IJSD_CallNamesTableViewCell.xib */; };
+		FF899300218837D6009F135E /* IJSD_CallNamesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8992FF218837D6009F135E /* IJSD_CallNamesListView.m */; };
+		FF899303218845EE009F135E /* IJSD_HomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899302218845EE009F135E /* IJSD_HomeView.m */; };
+		FF89930621884648009F135E /* IJXF_AdvertisingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89930421884648009F135E /* IJXF_AdvertisingView.m */; };
+		FF89930A21884695009F135E /* JZD_HomeCourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89930721884694009F135E /* JZD_HomeCourseTableViewCell.m */; };
+		FF89930B21884695009F135E /* JZD_HomeCourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89930921884695009F135E /* JZD_HomeCourseTableViewCell.xib */; };
+		FF89930E218846DE009F135E /* JZD_HomeCourseCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89930C218846DD009F135E /* JZD_HomeCourseCollectionView.m */; };
+		FF899312218846F8009F135E /* JZD_HomeCourseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899310218846F7009F135E /* JZD_HomeCourseCollectionViewCell.xib */; };
+		FF899313218846F8009F135E /* JZD_HomeCourseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899311218846F8009F135E /* JZD_HomeCourseCollectionViewCell.m */; };
+		FF89931721885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89931521885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.m */; };
+		FF89931821885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89931621885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.xib */; };
+		FF89931B21885F58009F135E /* IJSD_GradeSelectCampusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89931A21885F58009F135E /* IJSD_GradeSelectCampusViewController.m */; };
+		FF89931F21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89931D21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.m */; };
+		FF89932021887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89931E21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.xib */; };
+		FF8993232188808D009F135E /* IJSD_SelectCampusAndExamPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993222188808D009F135E /* IJSD_SelectCampusAndExamPromptView.m */; };
+		FF89932621893B72009F135E /* IJSD_GradeSelectClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89932521893B72009F135E /* IJSD_GradeSelectClassViewController.m */; };
+		FF89932A2189427D009F135E /* IJSD_GradeStudentListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993282189427D009F135E /* IJSD_GradeStudentListTableViewCell.m */; };
+		FF89932B2189427D009F135E /* IJSD_GradeStudentListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993292189427D009F135E /* IJSD_GradeStudentListTableViewCell.xib */; };
+		FF89932E2189443E009F135E /* IJSD_SelectClassInputGradeListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89932D2189443E009F135E /* IJSD_SelectClassInputGradeListView.m */; };
+		FF89933121894E43009F135E /* IJSD_GradeInputSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89933021894E43009F135E /* IJSD_GradeInputSuccessViewController.m */; };
+		FF8993342189532E009F135E /* IJSD_GradeInputSurePromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993332189532E009F135E /* IJSD_GradeInputSurePromptView.m */; };
+		FF89933621895346009F135E /* IJSD_GradeInputSurePromptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89933521895346009F135E /* IJSD_GradeInputSurePromptView.xib */; };
+		FF89933921898903009F135E /* JZD_MessageListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89933821898903009F135E /* JZD_MessageListView.m */; };
+		FF89933D21898923009F135E /* JZD_MessageListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89933B21898923009F135E /* JZD_MessageListTableViewCell.xib */; };
+		FF89933E21898923009F135E /* JZD_MessageListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89933C21898923009F135E /* JZD_MessageListTableViewCell.m */; };
+		FF89934121898A45009F135E /* JZD_MessageAddressBookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89934021898A45009F135E /* JZD_MessageAddressBookListViewController.m */; };
+		FF89934421898A75009F135E /* JZD_MessageAddressBookListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89934221898A75009F135E /* JZD_MessageAddressBookListView.m */; };
+		FF89934821898A93009F135E /* JZD_AddressBookListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89934621898A92009F135E /* JZD_AddressBookListTableViewCell.m */; };
+		FF89934921898A93009F135E /* JZD_AddressBookListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89934721898A93009F135E /* JZD_AddressBookListTableViewCell.xib */; };
+		FF89934C21898B4B009F135E /* JZD_MessageGroupChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89934B21898B4B009F135E /* JZD_MessageGroupChatViewController.m */; };
+		FF89934F21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89934D21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.m */; };
+		FF89935221898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89935021898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.m */; };
+		FF89935621898D0A009F135E /* JZD_GroupChatMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89935321898D09009F135E /* JZD_GroupChatMemberTableViewCell.xib */; };
+		FF89935721898D0A009F135E /* JZD_GroupChatMemberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89935421898D0A009F135E /* JZD_GroupChatMemberTableViewCell.m */; };
+		FF89935B21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89935821898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.m */; };
+		FF89935C21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89935921898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.xib */; };
+		FF89935F21898D71009F135E /* JZD_GroupChatMemberListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89935D21898D71009F135E /* JZD_GroupChatMemberListView.m */; };
+		FF89936321898D90009F135E /* JZD_GroupChatMemberListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89936121898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.xib */; };
+		FF89936421898D90009F135E /* JZD_GroupChatMemberListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89936221898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.m */; };
+		FF89936721898DE9009F135E /* JZD_GroupChatNoticesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89936621898DE9009F135E /* JZD_GroupChatNoticesViewController.m */; };
+		FF89936A21898E13009F135E /* JZD_GroupChatNoticesView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89936821898E12009F135E /* JZD_GroupChatNoticesView.m */; };
+		FF89936E21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89936B21898E37009F135E /* JZD_GroupChatNoticesTableViewCell.m */; };
+		FF89936F21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89936D21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.xib */; };
+		FF89937221898EAA009F135E /* JZD_GroupChatMemberListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89937121898EAA009F135E /* JZD_GroupChatMemberListViewController.m */; };
+		FF89937521899898009F135E /* IJSD_TeachingReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89937421899898009F135E /* IJSD_TeachingReportViewController.m */; };
+		FF89937821899BE0009F135E /* IJSD_TeachingReportListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89937721899BE0009F135E /* IJSD_TeachingReportListViewController.m */; };
+		FF89937C21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89937A21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.m */; };
+		FF89937D21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89937B21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.xib */; };
+		FF8993802189A0ED009F135E /* IJSD_TeachingReportListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89937F2189A0ED009F135E /* IJSD_TeachingReportListView.m */; };
+		FF8993832189A82D009F135E /* IJSD_TeachingReportEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993822189A82D009F135E /* IJSD_TeachingReportEditViewController.m */; };
+		FF8993872189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993852189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.m */; };
+		FF8993882189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993862189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.xib */; };
+		FF89938C2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89938A2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.m */; };
+		FF89938D2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89938B2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.xib */; };
+		FF8993902189AF3E009F135E /* IJSD_TeachingReportEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89938F2189AF3E009F135E /* IJSD_TeachingReportEditView.m */; };
+		FF899393218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899392218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.m */; };
+		FF899397218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899395218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.m */; };
+		FF899398218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899396218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.xib */; };
+		FF89939C218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89939A218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.m */; };
+		FF89939D218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89939B218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.xib */; };
+		FF8993A0218AA8C8009F135E /* IJSD_ClassScheduleWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89939F218AA8C8009F135E /* IJSD_ClassScheduleWeekView.m */; };
+		FF8993A3218AAD49009F135E /* IJSD_ClassScheduleWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993A2218AAD49009F135E /* IJSD_ClassScheduleWeekViewController.m */; };
+		FF8993A6218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993A5218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.m */; };
+		FF8993A9218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993A8218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.m */; };
+		FF8993AD218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993AB218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.m */; };
+		FF8993AE218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993AC218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.xib */; };
+		FF8993B1218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B0218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.m */; };
+		FF8993B4218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B3218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.m */; };
+		FF8993B7218AE63C009F135E /* JZD_ServeCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B5218AE63B009F135E /* JZD_ServeCalendarView.m */; };
+		FF8993BB218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993B8218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.xib */; };
+		FF8993BC218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993B9218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.m */; };
+		FF8993C0218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993BE218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.m */; };
+		FF8993C1218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993BF218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.xib */; };
+		FF8993C4218AF31F009F135E /* IJSD_ClassScheduleMonthListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993C3218AF31F009F135E /* IJSD_ClassScheduleMonthListView.m */; };
+		FF8993C7218AFBE3009F135E /* IJSD_ClassReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993C6218AFBE3009F135E /* IJSD_ClassReviewViewController.m */; };
+		FF8993CB218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993C9218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.m */; };
+		FF8993CC218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993CA218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.xib */; };
+		FF8993CF218B0061009F135E /* IJSD_ClassReviewListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993CE218B0061009F135E /* IJSD_ClassReviewListView.m */; };
+		FF8993D2218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993D1218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.m */; };
+		FF8993D5218B06D4009F135E /* IJSD_ClassReviewContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993D4218B06D4009F135E /* IJSD_ClassReviewContentViewController.m */; };
+		FF8993D9218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993D7218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.m */; };
+		FF8993DA218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993D8218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.xib */; };
+		FF8993DD218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993DC218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.m */; };
+		FF8993E0218B1E77009F135E /* IJSD_ClassReviewTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993DF218B1E77009F135E /* IJSD_ClassReviewTemplateViewController.m */; };
+		FF8993E3218B262F009F135E /* IJSD_ClassReviewReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993E2218B262F009F135E /* IJSD_ClassReviewReviewViewController.m */; };
+		FF8993E7218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993E5218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.m */; };
+		FF8993E8218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993E6218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.xib */; };
+		FF8993EB218BE124009F135E /* IJSD_ClassReviewHistoryListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993EA218BE124009F135E /* IJSD_ClassReviewHistoryListView.m */; };
+		FF8993EE218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993ED218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.m */; };
+		FF8993F1218BE3CC009F135E /* JZD_ServeClassCommentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993F0218BE3CB009F135E /* JZD_ServeClassCommentDetailViewController.m */; };
+		FF8993F4218BE41D009F135E /* JZD_ServeClassCommentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993F3218BE41D009F135E /* JZD_ServeClassCommentDetailView.m */; };
+		FF8993F8218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993F5218BE462009F135E /* JZD_ClassCommentDetailTableViewCell.m */; };
+		FF8993F9218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993F6218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.xib */; };
+		FF8993FD218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8993FA218BE497009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.xib */; };
+		FF8993FE218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8993FB218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.m */; };
+		FF899402218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899400218BE4CE009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib */; };
+		FF899403218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899401218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m */; };
+		FF899406218BE7D1009F135E /* JZD_ServeClassComentDetailContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899405218BE7D1009F135E /* JZD_ServeClassComentDetailContentView.m */; };
+		FF899409218BE7E8009F135E /* JZD_ServeClassComentDetailContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899407218BE7E7009F135E /* JZD_ServeClassComentDetailContentViewController.m */; };
+		FF89940C218BF412009F135E /* IJSD_TeachingPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89940B218BF412009F135E /* IJSD_TeachingPlanViewController.m */; };
+		FF899410218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89940E218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.m */; };
+		FF899411218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89940F218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.xib */; };
+		FF899414218BFB5A009F135E /* IJSD_TeachingPlanListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899413218BFB5A009F135E /* IJSD_TeachingPlanListView.m */; };
+		FF899418218BFF69009F135E /* IJSD_PublicListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899416218BFF69009F135E /* IJSD_PublicListTableViewCell.m */; };
+		FF899419218BFF69009F135E /* IJSD_PublicListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899417218BFF69009F135E /* IJSD_PublicListTableViewCell.xib */; };
+		FF89941C218C00F0009F135E /* IJSD_PublicListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89941B218C00F0009F135E /* IJSD_PublicListView.m */; };
+		FF89941F218C0182009F135E /* IJSD_PublicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89941E218C0182009F135E /* IJSD_PublicListViewController.m */; };
+		FF899422218C027F009F135E /* IJSD_PublicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899421218C027F009F135E /* IJSD_PublicDetailViewController.m */; };
+		FF899425218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899424218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.m */; };
+		FF899429218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899427218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.m */; };
+		FF89942A218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899428218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.xib */; };
+		FF89942D218C232B009F135E /* IJSD_LeakFillingListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89942C218C232B009F135E /* IJSD_LeakFillingListView.m */; };
+		FF899430218C4C24009F135E /* IJSD_StudentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89942F218C4C24009F135E /* IJSD_StudentsListViewController.m */; };
+		FF899434218C59A3009F135E /* IJSD_StudentsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899432218C59A2009F135E /* IJSD_StudentsListTableViewCell.m */; };
+		FF899435218C59A3009F135E /* IJSD_StudentsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899433218C59A2009F135E /* IJSD_StudentsListTableViewCell.xib */; };
+		FF899438218C6CE5009F135E /* IJSD_StudentsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899437218C6CE5009F135E /* IJSD_StudentsListView.m */; };
+		FF89943B218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89943A218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.m */; };
+		FF89943F218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89943D218DE87C009F135E /* JZD_TimeTableSelectTimeTableViewCell.xib */; };
+		FF899440218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89943E218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.m */; };
+		FF899443218DEE4D009F135E /* IJSD_AddStudentsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899442218DEE4D009F135E /* IJSD_AddStudentsListViewController.m */; };
+		FF899447218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899445218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.m */; };
+		FF899448218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899446218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.xib */; };
+		FF89944B218DF184009F135E /* IJSD_AddStudentsListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89944A218DF184009F135E /* IJSD_AddStudentsListView.m */; };
+		FF89944E218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89944D218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.m */; };
+		FF899452218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899450218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.m */; };
+		FF899453218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF899451218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.xib */; };
+		FF899456218DFABA009F135E /* IJSD_DynamicSelectClassListView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF899455218DFABA009F135E /* IJSD_DynamicSelectClassListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +242,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8AFA16D2FB341EF34D45790D /* Pods-YiXinYiJiaoShiDuan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiXinYiJiaoShiDuan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YiXinYiJiaoShiDuan/Pods-YiXinYiJiaoShiDuan.debug.xcconfig"; sourceTree = "<group>"; };
+		D43A55CE31A0C6FB4B895E34 /* libPods-YiXinYiJiaoShiDuan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YiXinYiJiaoShiDuan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC661F1BBB3038DD115F7287 /* Pods-YiXinYiJiaoShiDuan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YiXinYiJiaoShiDuan.release.xcconfig"; path = "Pods/Target Support Files/Pods-YiXinYiJiaoShiDuan/Pods-YiXinYiJiaoShiDuan.release.xcconfig"; sourceTree = "<group>"; };
 		FF18380E2182AC2400C8E9B8 /* YiXinYiJiaoShiDuan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YiXinYiJiaoShiDuan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1838112182AC2400C8E9B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF1838122182AC2400C8E9B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +261,371 @@
 		FF1838312182AC2600C8E9B8 /* YiXinYiJiaoShiDuanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YiXinYiJiaoShiDuanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1838352182AC2600C8E9B8 /* YiXinYiJiaoShiDuanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiXinYiJiaoShiDuanUITests.m; sourceTree = "<group>"; };
 		FF1838372182AC2600C8E9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8991F02186A3DF009F135E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		FF8991F32186A6DB009F135E /* FWEB_CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWEB_CommonTools.h; sourceTree = "<group>"; };
+		FF8991F42186A6DB009F135E /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		FF8991F52186A6DB009F135E /* FWEB_NetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWEB_NetWorkHelper.m; sourceTree = "<group>"; };
+		FF8991F72186A6DB009F135E /* NSArray+FWEB_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FWEB_Extension.h"; sourceTree = "<group>"; };
+		FF8991F82186A6DB009F135E /* UIImage+FWEB_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FWEB_Extension.m"; sourceTree = "<group>"; };
+		FF8991F92186A6DB009F135E /* UIColor+FWEB_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FWEB_Extension.m"; sourceTree = "<group>"; };
+		FF8991FA2186A6DB009F135E /* NSString+FWEB_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FWEB_Extension.m"; sourceTree = "<group>"; };
+		FF8991FB2186A6DB009F135E /* NSDictionary+FWEB_NullDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FWEB_NullDict.m"; sourceTree = "<group>"; };
+		FF8991FC2186A6DB009F135E /* UITableView+IJXF_Reflash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+IJXF_Reflash.h"; sourceTree = "<group>"; };
+		FF8991FD2186A6DB009F135E /* UIView+FWEB_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FWEB_Extension.m"; sourceTree = "<group>"; };
+		FF8991FE2186A6DB009F135E /* UIImage+FWEB_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FWEB_Extension.h"; sourceTree = "<group>"; };
+		FF8991FF2186A6DB009F135E /* UIColor+FWEB_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FWEB_Extension.h"; sourceTree = "<group>"; };
+		FF8992002186A6DB009F135E /* NSArray+FWEB_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FWEB_Extension.m"; sourceTree = "<group>"; };
+		FF8992012186A6DB009F135E /* NSString+FWEB_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FWEB_Extension.h"; sourceTree = "<group>"; };
+		FF8992022186A6DB009F135E /* NSDictionary+FWEB_NullDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FWEB_NullDict.h"; sourceTree = "<group>"; };
+		FF8992032186A6DB009F135E /* UIView+FWEB_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FWEB_Extension.h"; sourceTree = "<group>"; };
+		FF8992042186A6DB009F135E /* UITableView+IJXF_Reflash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+IJXF_Reflash.m"; sourceTree = "<group>"; };
+		FF8992052186A6DB009F135E /* FuWuEBao.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuWuEBao.pch; sourceTree = "<group>"; };
+		FF8992062186A6DB009F135E /* FWEB_CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWEB_CommonTools.m; sourceTree = "<group>"; };
+		FF8992072186A6DB009F135E /* DefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineMacro.h; sourceTree = "<group>"; };
+		FF8992082186A6DB009F135E /* InterfaceApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceApi.h; sourceTree = "<group>"; };
+		FF8992092186A6DB009F135E /* FWEB_NetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWEB_NetWorkHelper.h; sourceTree = "<group>"; };
+		FF89920A2186A6DB009F135E /* DefineRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineRequest.h; sourceTree = "<group>"; };
+		FF89920B2186A6DB009F135E /* DefineTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefineTheme.h; sourceTree = "<group>"; };
+		FF8992172186A71B009F135E /* XHStarRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHStarRateView.h; sourceTree = "<group>"; };
+		FF8992182186A71B009F135E /* JZD_StarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_StarView.m; sourceTree = "<group>"; };
+		FF8992192186A71B009F135E /* JZD_StarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_StarView.h; sourceTree = "<group>"; };
+		FF89921A2186A71B009F135E /* XHStarRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHStarRateView.m; sourceTree = "<group>"; };
+		FF89921C2186A71B009F135E /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		FF89921D2186A71B009F135E /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		FF89921F2186A71B009F135E /* SBPageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBPageFlowView.h; sourceTree = "<group>"; };
+		FF8992202186A71B009F135E /* SBPageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBPageFlowView.m; sourceTree = "<group>"; };
+		FF8992222186A71B009F135E /* KDCycleBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDCycleBannerView.m; sourceTree = "<group>"; };
+		FF8992232186A71B009F135E /* KDCycleBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDCycleBannerView.h; sourceTree = "<group>"; };
+		FF8992262186A71B009F135E /* SGSegmentedControlHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedControlHelper.h; sourceTree = "<group>"; };
+		FF8992272186A71B009F135E /* SGSegmentedControlBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedControlBottomView.h; sourceTree = "<group>"; };
+		FF8992282186A71B009F135E /* SGSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedControl.h; sourceTree = "<group>"; };
+		FF8992292186A71B009F135E /* SGSegmentedControlStatic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSegmentedControlStatic.m; sourceTree = "<group>"; };
+		FF89922A2186A71B009F135E /* SGImageButton_Vertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGImageButton_Vertical.h; sourceTree = "<group>"; };
+		FF89922B2186A71B009F135E /* SGImageButton_Horizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGImageButton_Horizontal.h; sourceTree = "<group>"; };
+		FF89922C2186A71B009F135E /* SGNavigationItemTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGNavigationItemTitleView.h; sourceTree = "<group>"; };
+		FF89922D2186A71B009F135E /* SGSegmentedControlDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedControlDefault.h; sourceTree = "<group>"; };
+		FF89922E2186A71B009F135E /* UIView+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SGExtension.m"; sourceTree = "<group>"; };
+		FF89922F2186A71B009F135E /* SGSegmentedControlStatic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSegmentedControlStatic.h; sourceTree = "<group>"; };
+		FF8992302186A71B009F135E /* SGSegmentedControlBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSegmentedControlBottomView.m; sourceTree = "<group>"; };
+		FF8992312186A71B009F135E /* SGImageButton_Horizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGImageButton_Horizontal.m; sourceTree = "<group>"; };
+		FF8992322186A71B009F135E /* SGImageButton_Vertical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGImageButton_Vertical.m; sourceTree = "<group>"; };
+		FF8992332186A71B009F135E /* UIView+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SGExtension.h"; sourceTree = "<group>"; };
+		FF8992342186A71B009F135E /* SGSegmentedControlDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSegmentedControlDefault.m; sourceTree = "<group>"; };
+		FF8992352186A71B009F135E /* SGNavigationItemTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGNavigationItemTitleView.m; sourceTree = "<group>"; };
+		FF8992462186B183009F135E /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		FF8992472186B183009F135E /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		FF89924C2186B35E009F135E /* FWEB_BasicApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWEB_BasicApi.m; sourceTree = "<group>"; };
+		FF89924D2186B35F009F135E /* FWEB_BasicApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWEB_BasicApi.h; sourceTree = "<group>"; };
+		FF8992532186B3EA009F135E /* IJSD_BasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_BasicViewController.h; sourceTree = "<group>"; };
+		FF8992542186B3EA009F135E /* IJSD_BasicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_BasicViewController.m; sourceTree = "<group>"; };
+		FF8992562186B406009F135E /* IJSD_BasicTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_BasicTableViewCell.h; sourceTree = "<group>"; };
+		FF8992572186B406009F135E /* IJSD_BasicTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_BasicTableViewCell.m; sourceTree = "<group>"; };
+		FF8992582186B406009F135E /* IJSD_BasicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_BasicTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992672186B58B009F135E /* IJSD_CallNamesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_CallNamesViewController.h; sourceTree = "<group>"; };
+		FF8992682186B58B009F135E /* IJSD_CallNamesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_CallNamesViewController.m; sourceTree = "<group>"; };
+		FF89926A2186B5A5009F135E /* CallNames.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CallNames.storyboard; sourceTree = "<group>"; };
+		FF89926C2186B5C1009F135E /* IJSD_MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_MessageViewController.h; sourceTree = "<group>"; };
+		FF89926D2186B5C1009F135E /* IJSD_MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_MessageViewController.m; sourceTree = "<group>"; };
+		FF89926F2186B5CE009F135E /* Message.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		FF8992712186B5E0009F135E /* IJSD_AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AccountViewController.h; sourceTree = "<group>"; };
+		FF8992722186B5E0009F135E /* IJSD_AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AccountViewController.m; sourceTree = "<group>"; };
+		FF8992742186B5EE009F135E /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		FF8992762186B5FB009F135E /* IJSD_HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_HomeViewController.h; sourceTree = "<group>"; };
+		FF8992772186B5FB009F135E /* IJSD_HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_HomeViewController.m; sourceTree = "<group>"; };
+		FF8992792186B607009F135E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		FF89927C2186F0DA009F135E /* IJSD_AccountSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AccountSetViewController.h; sourceTree = "<group>"; };
+		FF89927D2186F0DA009F135E /* IJSD_AccountSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AccountSetViewController.m; sourceTree = "<group>"; };
+		FF89927F2186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_AccountBabyInfoTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992802186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountBabyInfoTableViewCell.m; sourceTree = "<group>"; };
+		FF8992812186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountBabyInfoTableViewCell.h; sourceTree = "<group>"; };
+		FF8992842186F2D1009F135E /* JZD_AccountSetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountSetView.h; sourceTree = "<group>"; };
+		FF8992852186F2D1009F135E /* JZD_AccountSetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountSetView.m; sourceTree = "<group>"; };
+		FF8992872186F604009F135E /* JZD_AccountSetPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountSetPromptView.h; sourceTree = "<group>"; };
+		FF8992882186F604009F135E /* JZD_AccountSetPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountSetPromptView.m; sourceTree = "<group>"; };
+		FF8992892186F604009F135E /* JZD_AccountSetPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_AccountSetPromptView.xib; sourceTree = "<group>"; };
+		FF89928C2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountSetModifyPwdViewController.m; sourceTree = "<group>"; };
+		FF89928D2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountSetModifyPwdViewController.h; sourceTree = "<group>"; };
+		FF89928F2186FB18009F135E /* JZD_FirstLoginPromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_FirstLoginPromptView.h; sourceTree = "<group>"; };
+		FF8992902186FB19009F135E /* JZD_FirstLoginPromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_FirstLoginPromptView.m; sourceTree = "<group>"; };
+		FF8992912186FB19009F135E /* JZD_FirstLoginPromptView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_FirstLoginPromptView.xib; sourceTree = "<group>"; };
+		FF8992942186FB41009F135E /* JZD_AccountSetModifyPwdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountSetModifyPwdView.h; sourceTree = "<group>"; };
+		FF8992952186FB41009F135E /* JZD_AccountSetModifyPwdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountSetModifyPwdView.m; sourceTree = "<group>"; };
+		FF8992972186FB78009F135E /* JZD_AccountSetModifyPwdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AccountSetModifyPwdTableViewCell.h; sourceTree = "<group>"; };
+		FF8992982186FB78009F135E /* JZD_AccountSetModifyPwdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AccountSetModifyPwdTableViewCell.m; sourceTree = "<group>"; };
+		FF8992992186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_AccountSetModifyPwdTableViewCell.xib; sourceTree = "<group>"; };
+		FF89929C2186FB96009F135E /* JZD_LoginButtonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_LoginButtonTableViewCell.h; sourceTree = "<group>"; };
+		FF89929D2186FB96009F135E /* JZD_LoginButtonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_LoginButtonTableViewCell.m; sourceTree = "<group>"; };
+		FF89929E2186FB97009F135E /* JZD_LoginButtonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_LoginButtonTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992A12187013F009F135E /* JZD_ServeClassConditionListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassConditionListTableViewCell.h; sourceTree = "<group>"; };
+		FF8992A22187013F009F135E /* JZD_ServeClassConditionListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ServeClassConditionListTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992A321870140009F135E /* JZD_ServeClassConditionListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassConditionListTableViewCell.m; sourceTree = "<group>"; };
+		FF8992A621870178009F135E /* JZD_ServeClassConditionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassConditionListView.h; sourceTree = "<group>"; };
+		FF8992A721870178009F135E /* JZD_ServeClassConditionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassConditionListView.m; sourceTree = "<group>"; };
+		FF8992A921870195009F135E /* JZD_ServeClassConditionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassConditionListViewController.h; sourceTree = "<group>"; };
+		FF8992AA21870195009F135E /* JZD_ServeClassConditionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassConditionListViewController.m; sourceTree = "<group>"; };
+		FF8992AC21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AccountFeedbackDetailTableViewCell.h; sourceTree = "<group>"; };
+		FF8992AD21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AccountFeedbackDetailTableViewCell.m; sourceTree = "<group>"; };
+		FF8992AE21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_AccountFeedbackDetailTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992B121870A53009F135E /* JZD_ServeClassConditionDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassConditionDetailView.m; sourceTree = "<group>"; };
+		FF8992B221870A54009F135E /* JZD_ServeClassConditionDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassConditionDetailView.h; sourceTree = "<group>"; };
+		FF8992B421870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AccountClassAwayDetailViewController.h; sourceTree = "<group>"; };
+		FF8992B521870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AccountClassAwayDetailViewController.m; sourceTree = "<group>"; };
+		FF8992B721871309009F135E /* IJSD_AccountMyEvaluateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AccountMyEvaluateViewController.h; sourceTree = "<group>"; };
+		FF8992B821871309009F135E /* IJSD_AccountMyEvaluateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AccountMyEvaluateViewController.m; sourceTree = "<group>"; };
+		FF8992BA21873211009F135E /* JZD_FirstLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_FirstLoginViewController.xib; sourceTree = "<group>"; };
+		FF8992BB21873211009F135E /* JZD_FirstLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_FirstLoginViewController.h; sourceTree = "<group>"; };
+		FF8992BC21873211009F135E /* JZD_FirstLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_FirstLoginViewController.m; sourceTree = "<group>"; };
+		FF8992C72187331C009F135E /* JZD_FirstLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_FirstLoginView.m; sourceTree = "<group>"; };
+		FF8992C82187331D009F135E /* JZD_FirstLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_FirstLoginView.h; sourceTree = "<group>"; };
+		FF8992CA21873356009F135E /* JZD_PhoneCodePwdTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_PhoneCodePwdTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992CB21873356009F135E /* JZD_PhoneCodePwdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_PhoneCodePwdTableViewCell.h; sourceTree = "<group>"; };
+		FF8992CC21873357009F135E /* JZD_PhoneCodePwdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_PhoneCodePwdTableViewCell.m; sourceTree = "<group>"; };
+		FF8992CF21873384009F135E /* JZD_QuickLoginTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_QuickLoginTableViewCell.h; sourceTree = "<group>"; };
+		FF8992D021873385009F135E /* JZD_QuickLoginTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_QuickLoginTableViewCell.m; sourceTree = "<group>"; };
+		FF8992D121873385009F135E /* JZD_QuickLoginTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_QuickLoginTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992D421873525009F135E /* JZD_FirstLoginHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_FirstLoginHeaderView.h; sourceTree = "<group>"; };
+		FF8992D521873525009F135E /* JZD_FirstLoginHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_FirstLoginHeaderView.m; sourceTree = "<group>"; };
+		FF8992D621873526009F135E /* JZD_FirstLoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_FirstLoginHeaderView.xib; sourceTree = "<group>"; };
+		FF8992D921873926009F135E /* JZD_ForgetPwdPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ForgetPwdPhoneViewController.h; sourceTree = "<group>"; };
+		FF8992DA21873926009F135E /* JZD_ForgetPwdPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ForgetPwdPhoneViewController.m; sourceTree = "<group>"; };
+		FF8992DB21873927009F135E /* JZD_ForgetPwdPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ForgetPwdPhoneViewController.xib; sourceTree = "<group>"; };
+		FF8992DE21873958009F135E /* JZD_ForgetPwdPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ForgetPwdPhoneView.m; sourceTree = "<group>"; };
+		FF8992DF21873958009F135E /* JZD_ForgetPwdPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ForgetPwdPhoneView.h; sourceTree = "<group>"; };
+		FF8992E12187FDD0009F135E /* JZD_ForgetPwdCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ForgetPwdCodeViewController.h; sourceTree = "<group>"; };
+		FF8992E22187FDD0009F135E /* JZD_ForgetPwdCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ForgetPwdCodeViewController.m; sourceTree = "<group>"; };
+		FF8992E32187FDD1009F135E /* JZD_ForgetPwdCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ForgetPwdCodeViewController.xib; sourceTree = "<group>"; };
+		FF8992E62187FE03009F135E /* JZD_ForgetPwdCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ForgetPwdCodeView.h; sourceTree = "<group>"; };
+		FF8992E72187FE03009F135E /* JZD_ForgetPwdCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ForgetPwdCodeView.m; sourceTree = "<group>"; };
+		FF8992EC218803ED009F135E /* JZD_PwdOrCodeLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_PwdOrCodeLoginViewController.xib; sourceTree = "<group>"; };
+		FF8992ED218803ED009F135E /* JZD_PwdOrCodeLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_PwdOrCodeLoginViewController.m; sourceTree = "<group>"; };
+		FF8992EE218803EE009F135E /* JZD_PwdOrCodeLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_PwdOrCodeLoginViewController.h; sourceTree = "<group>"; };
+		FF8992F121880432009F135E /* JZD_PwdOrCodeLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_PwdOrCodeLoginView.m; sourceTree = "<group>"; };
+		FF8992F221880433009F135E /* JZD_PwdOrCodeLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_PwdOrCodeLoginView.h; sourceTree = "<group>"; };
+		FF8992F4218804A7009F135E /* JZD_LoginHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_LoginHeaderView.m; sourceTree = "<group>"; };
+		FF8992F5218804A7009F135E /* JZD_LoginHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_LoginHeaderView.xib; sourceTree = "<group>"; };
+		FF8992F6218804A8009F135E /* JZD_LoginHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_LoginHeaderView.h; sourceTree = "<group>"; };
+		FF8992F921883514009F135E /* IJSD_CallNamesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_CallNamesTableViewCell.h; sourceTree = "<group>"; };
+		FF8992FA21883514009F135E /* IJSD_CallNamesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_CallNamesTableViewCell.m; sourceTree = "<group>"; };
+		FF8992FB21883514009F135E /* IJSD_CallNamesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_CallNamesTableViewCell.xib; sourceTree = "<group>"; };
+		FF8992FE218837D6009F135E /* IJSD_CallNamesListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_CallNamesListView.h; sourceTree = "<group>"; };
+		FF8992FF218837D6009F135E /* IJSD_CallNamesListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_CallNamesListView.m; sourceTree = "<group>"; };
+		FF899301218845EE009F135E /* IJSD_HomeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_HomeView.h; sourceTree = "<group>"; };
+		FF899302218845EE009F135E /* IJSD_HomeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_HomeView.m; sourceTree = "<group>"; };
+		FF89930421884648009F135E /* IJXF_AdvertisingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJXF_AdvertisingView.m; sourceTree = "<group>"; };
+		FF89930521884648009F135E /* IJXF_AdvertisingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJXF_AdvertisingView.h; sourceTree = "<group>"; };
+		FF89930721884694009F135E /* JZD_HomeCourseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_HomeCourseTableViewCell.m; sourceTree = "<group>"; };
+		FF89930821884694009F135E /* JZD_HomeCourseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_HomeCourseTableViewCell.h; sourceTree = "<group>"; };
+		FF89930921884695009F135E /* JZD_HomeCourseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_HomeCourseTableViewCell.xib; sourceTree = "<group>"; };
+		FF89930C218846DD009F135E /* JZD_HomeCourseCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_HomeCourseCollectionView.m; sourceTree = "<group>"; };
+		FF89930D218846DE009F135E /* JZD_HomeCourseCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_HomeCourseCollectionView.h; sourceTree = "<group>"; };
+		FF89930F218846F7009F135E /* JZD_HomeCourseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_HomeCourseCollectionViewCell.h; sourceTree = "<group>"; };
+		FF899310218846F7009F135E /* JZD_HomeCourseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_HomeCourseCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF899311218846F8009F135E /* JZD_HomeCourseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_HomeCourseCollectionViewCell.m; sourceTree = "<group>"; };
+		FF89931421885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_HomeSelectCampusTableViewCell.h; sourceTree = "<group>"; };
+		FF89931521885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_HomeSelectCampusTableViewCell.m; sourceTree = "<group>"; };
+		FF89931621885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_HomeSelectCampusTableViewCell.xib; sourceTree = "<group>"; };
+		FF89931921885F58009F135E /* IJSD_GradeSelectCampusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_GradeSelectCampusViewController.h; sourceTree = "<group>"; };
+		FF89931A21885F58009F135E /* IJSD_GradeSelectCampusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_GradeSelectCampusViewController.m; sourceTree = "<group>"; };
+		FF89931C21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_SelectCampusAndExamPromptTableViewCell.h; sourceTree = "<group>"; };
+		FF89931D21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_SelectCampusAndExamPromptTableViewCell.m; sourceTree = "<group>"; };
+		FF89931E21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_SelectCampusAndExamPromptTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993212188808D009F135E /* IJSD_SelectCampusAndExamPromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_SelectCampusAndExamPromptView.h; sourceTree = "<group>"; };
+		FF8993222188808D009F135E /* IJSD_SelectCampusAndExamPromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_SelectCampusAndExamPromptView.m; sourceTree = "<group>"; };
+		FF89932421893B72009F135E /* IJSD_GradeSelectClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_GradeSelectClassViewController.h; sourceTree = "<group>"; };
+		FF89932521893B72009F135E /* IJSD_GradeSelectClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_GradeSelectClassViewController.m; sourceTree = "<group>"; };
+		FF8993272189427D009F135E /* IJSD_GradeStudentListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_GradeStudentListTableViewCell.h; sourceTree = "<group>"; };
+		FF8993282189427D009F135E /* IJSD_GradeStudentListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_GradeStudentListTableViewCell.m; sourceTree = "<group>"; };
+		FF8993292189427D009F135E /* IJSD_GradeStudentListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_GradeStudentListTableViewCell.xib; sourceTree = "<group>"; };
+		FF89932C2189443E009F135E /* IJSD_SelectClassInputGradeListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_SelectClassInputGradeListView.h; sourceTree = "<group>"; };
+		FF89932D2189443E009F135E /* IJSD_SelectClassInputGradeListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_SelectClassInputGradeListView.m; sourceTree = "<group>"; };
+		FF89932F21894E43009F135E /* IJSD_GradeInputSuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_GradeInputSuccessViewController.h; sourceTree = "<group>"; };
+		FF89933021894E43009F135E /* IJSD_GradeInputSuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_GradeInputSuccessViewController.m; sourceTree = "<group>"; };
+		FF8993322189532E009F135E /* IJSD_GradeInputSurePromptView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_GradeInputSurePromptView.h; sourceTree = "<group>"; };
+		FF8993332189532E009F135E /* IJSD_GradeInputSurePromptView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_GradeInputSurePromptView.m; sourceTree = "<group>"; };
+		FF89933521895346009F135E /* IJSD_GradeInputSurePromptView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_GradeInputSurePromptView.xib; sourceTree = "<group>"; };
+		FF89933721898903009F135E /* JZD_MessageListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_MessageListView.h; sourceTree = "<group>"; };
+		FF89933821898903009F135E /* JZD_MessageListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_MessageListView.m; sourceTree = "<group>"; };
+		FF89933A21898922009F135E /* JZD_MessageListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_MessageListTableViewCell.h; sourceTree = "<group>"; };
+		FF89933B21898923009F135E /* JZD_MessageListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_MessageListTableViewCell.xib; sourceTree = "<group>"; };
+		FF89933C21898923009F135E /* JZD_MessageListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_MessageListTableViewCell.m; sourceTree = "<group>"; };
+		FF89933F21898A44009F135E /* JZD_MessageAddressBookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_MessageAddressBookListViewController.h; sourceTree = "<group>"; };
+		FF89934021898A45009F135E /* JZD_MessageAddressBookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_MessageAddressBookListViewController.m; sourceTree = "<group>"; };
+		FF89934221898A75009F135E /* JZD_MessageAddressBookListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_MessageAddressBookListView.m; sourceTree = "<group>"; };
+		FF89934321898A75009F135E /* JZD_MessageAddressBookListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_MessageAddressBookListView.h; sourceTree = "<group>"; };
+		FF89934521898A92009F135E /* JZD_AddressBookListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_AddressBookListTableViewCell.h; sourceTree = "<group>"; };
+		FF89934621898A92009F135E /* JZD_AddressBookListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_AddressBookListTableViewCell.m; sourceTree = "<group>"; };
+		FF89934721898A93009F135E /* JZD_AddressBookListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_AddressBookListTableViewCell.xib; sourceTree = "<group>"; };
+		FF89934A21898B4A009F135E /* JZD_MessageGroupChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_MessageGroupChatViewController.h; sourceTree = "<group>"; };
+		FF89934B21898B4B009F135E /* JZD_MessageGroupChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_MessageGroupChatViewController.m; sourceTree = "<group>"; };
+		FF89934D21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberAndNoticeViewController.m; sourceTree = "<group>"; };
+		FF89934E21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberAndNoticeViewController.h; sourceTree = "<group>"; };
+		FF89935021898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberAndNoticeView.m; sourceTree = "<group>"; };
+		FF89935121898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberAndNoticeView.h; sourceTree = "<group>"; };
+		FF89935321898D09009F135E /* JZD_GroupChatMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_GroupChatMemberTableViewCell.xib; sourceTree = "<group>"; };
+		FF89935421898D0A009F135E /* JZD_GroupChatMemberTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberTableViewCell.m; sourceTree = "<group>"; };
+		FF89935521898D0A009F135E /* JZD_GroupChatMemberTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberTableViewCell.h; sourceTree = "<group>"; };
+		FF89935821898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberNoticeTableViewCell.m; sourceTree = "<group>"; };
+		FF89935921898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_GroupChatMemberNoticeTableViewCell.xib; sourceTree = "<group>"; };
+		FF89935A21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberNoticeTableViewCell.h; sourceTree = "<group>"; };
+		FF89935D21898D71009F135E /* JZD_GroupChatMemberListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberListView.m; sourceTree = "<group>"; };
+		FF89935E21898D71009F135E /* JZD_GroupChatMemberListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberListView.h; sourceTree = "<group>"; };
+		FF89936021898D8E009F135E /* JZD_GroupChatMemberListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberListCollectionViewCell.h; sourceTree = "<group>"; };
+		FF89936121898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_GroupChatMemberListCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF89936221898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberListCollectionViewCell.m; sourceTree = "<group>"; };
+		FF89936521898DE8009F135E /* JZD_GroupChatNoticesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatNoticesViewController.h; sourceTree = "<group>"; };
+		FF89936621898DE9009F135E /* JZD_GroupChatNoticesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatNoticesViewController.m; sourceTree = "<group>"; };
+		FF89936821898E12009F135E /* JZD_GroupChatNoticesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatNoticesView.m; sourceTree = "<group>"; };
+		FF89936921898E13009F135E /* JZD_GroupChatNoticesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatNoticesView.h; sourceTree = "<group>"; };
+		FF89936B21898E37009F135E /* JZD_GroupChatNoticesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatNoticesTableViewCell.m; sourceTree = "<group>"; };
+		FF89936C21898E37009F135E /* JZD_GroupChatNoticesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatNoticesTableViewCell.h; sourceTree = "<group>"; };
+		FF89936D21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_GroupChatNoticesTableViewCell.xib; sourceTree = "<group>"; };
+		FF89937021898EAA009F135E /* JZD_GroupChatMemberListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_GroupChatMemberListViewController.h; sourceTree = "<group>"; };
+		FF89937121898EAA009F135E /* JZD_GroupChatMemberListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_GroupChatMemberListViewController.m; sourceTree = "<group>"; };
+		FF89937321899898009F135E /* IJSD_TeachingReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportViewController.h; sourceTree = "<group>"; };
+		FF89937421899898009F135E /* IJSD_TeachingReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportViewController.m; sourceTree = "<group>"; };
+		FF89937621899BE0009F135E /* IJSD_TeachingReportListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportListViewController.h; sourceTree = "<group>"; };
+		FF89937721899BE0009F135E /* IJSD_TeachingReportListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportListViewController.m; sourceTree = "<group>"; };
+		FF89937921899F0F009F135E /* IJSD_TeachingReportListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportListTableViewCell.h; sourceTree = "<group>"; };
+		FF89937A21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportListTableViewCell.m; sourceTree = "<group>"; };
+		FF89937B21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_TeachingReportListTableViewCell.xib; sourceTree = "<group>"; };
+		FF89937E2189A0ED009F135E /* IJSD_TeachingReportListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportListView.h; sourceTree = "<group>"; };
+		FF89937F2189A0ED009F135E /* IJSD_TeachingReportListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportListView.m; sourceTree = "<group>"; };
+		FF8993812189A82D009F135E /* IJSD_TeachingReportEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportEditViewController.h; sourceTree = "<group>"; };
+		FF8993822189A82D009F135E /* IJSD_TeachingReportEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportEditViewController.m; sourceTree = "<group>"; };
+		FF8993842189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportEditListTableViewCell.h; sourceTree = "<group>"; };
+		FF8993852189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportEditListTableViewCell.m; sourceTree = "<group>"; };
+		FF8993862189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_TeachingReportEditListTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993892189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportTotalEvaluateTableViewCell.h; sourceTree = "<group>"; };
+		FF89938A2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportTotalEvaluateTableViewCell.m; sourceTree = "<group>"; };
+		FF89938B2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_TeachingReportTotalEvaluateTableViewCell.xib; sourceTree = "<group>"; };
+		FF89938E2189AF3D009F135E /* IJSD_TeachingReportEditView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportEditView.h; sourceTree = "<group>"; };
+		FF89938F2189AF3E009F135E /* IJSD_TeachingReportEditView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportEditView.m; sourceTree = "<group>"; };
+		FF899391218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingReportEditSuccessViewController.h; sourceTree = "<group>"; };
+		FF899392218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingReportEditSuccessViewController.m; sourceTree = "<group>"; };
+		FF899394218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleWeekTableViewCell.h; sourceTree = "<group>"; };
+		FF899395218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleWeekTableViewCell.m; sourceTree = "<group>"; };
+		FF899396218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassScheduleWeekTableViewCell.xib; sourceTree = "<group>"; };
+		FF899399218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleWeekNoTableViewCell.h; sourceTree = "<group>"; };
+		FF89939A218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleWeekNoTableViewCell.m; sourceTree = "<group>"; };
+		FF89939B218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassScheduleWeekNoTableViewCell.xib; sourceTree = "<group>"; };
+		FF89939E218AA8C8009F135E /* IJSD_ClassScheduleWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleWeekView.h; sourceTree = "<group>"; };
+		FF89939F218AA8C8009F135E /* IJSD_ClassScheduleWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleWeekView.m; sourceTree = "<group>"; };
+		FF8993A1218AAD48009F135E /* IJSD_ClassScheduleWeekViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleWeekViewController.h; sourceTree = "<group>"; };
+		FF8993A2218AAD49009F135E /* IJSD_ClassScheduleWeekViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleWeekViewController.m; sourceTree = "<group>"; };
+		FF8993A4218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleCourseDetailViewController.h; sourceTree = "<group>"; };
+		FF8993A5218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleCourseDetailViewController.m; sourceTree = "<group>"; };
+		FF8993A7218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleClassNumberViewController.h; sourceTree = "<group>"; };
+		FF8993A8218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleClassNumberViewController.m; sourceTree = "<group>"; };
+		FF8993AA218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleClassNumberTableViewCell.h; sourceTree = "<group>"; };
+		FF8993AB218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleClassNumberTableViewCell.m; sourceTree = "<group>"; };
+		FF8993AC218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassScheduleClassNumberTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993AF218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleClassNumberListView.h; sourceTree = "<group>"; };
+		FF8993B0218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleClassNumberListView.m; sourceTree = "<group>"; };
+		FF8993B2218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleMonthViewController.h; sourceTree = "<group>"; };
+		FF8993B3218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleMonthViewController.m; sourceTree = "<group>"; };
+		FF8993B5218AE63B009F135E /* JZD_ServeCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeCalendarView.m; sourceTree = "<group>"; };
+		FF8993B6218AE63B009F135E /* JZD_ServeCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeCalendarView.h; sourceTree = "<group>"; };
+		FF8993B8218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ServeCalendarCollectionViewCell.xib; sourceTree = "<group>"; };
+		FF8993B9218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		FF8993BA218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		FF8993BD218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleMonthListTableViewCell.h; sourceTree = "<group>"; };
+		FF8993BE218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleMonthListTableViewCell.m; sourceTree = "<group>"; };
+		FF8993BF218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassScheduleMonthListTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993C2218AF31F009F135E /* IJSD_ClassScheduleMonthListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassScheduleMonthListView.h; sourceTree = "<group>"; };
+		FF8993C3218AF31F009F135E /* IJSD_ClassScheduleMonthListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassScheduleMonthListView.m; sourceTree = "<group>"; };
+		FF8993C5218AFBE3009F135E /* IJSD_ClassReviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewViewController.h; sourceTree = "<group>"; };
+		FF8993C6218AFBE3009F135E /* IJSD_ClassReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewViewController.m; sourceTree = "<group>"; };
+		FF8993C8218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewListTableViewCell.h; sourceTree = "<group>"; };
+		FF8993C9218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewListTableViewCell.m; sourceTree = "<group>"; };
+		FF8993CA218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassReviewListTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993CD218B0061009F135E /* IJSD_ClassReviewListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewListView.h; sourceTree = "<group>"; };
+		FF8993CE218B0061009F135E /* IJSD_ClassReviewListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewListView.m; sourceTree = "<group>"; };
+		FF8993D0218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewSelectStudentViewController.h; sourceTree = "<group>"; };
+		FF8993D1218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewSelectStudentViewController.m; sourceTree = "<group>"; };
+		FF8993D3218B06D4009F135E /* IJSD_ClassReviewContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewContentViewController.h; sourceTree = "<group>"; };
+		FF8993D4218B06D4009F135E /* IJSD_ClassReviewContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewContentViewController.m; sourceTree = "<group>"; };
+		FF8993D6218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewTemplateTableViewCell.h; sourceTree = "<group>"; };
+		FF8993D7218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewTemplateTableViewCell.m; sourceTree = "<group>"; };
+		FF8993D8218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassReviewTemplateTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993DB218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewTemplateListView.h; sourceTree = "<group>"; };
+		FF8993DC218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewTemplateListView.m; sourceTree = "<group>"; };
+		FF8993DE218B1E76009F135E /* IJSD_ClassReviewTemplateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewTemplateViewController.h; sourceTree = "<group>"; };
+		FF8993DF218B1E77009F135E /* IJSD_ClassReviewTemplateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewTemplateViewController.m; sourceTree = "<group>"; };
+		FF8993E1218B262F009F135E /* IJSD_ClassReviewReviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewReviewViewController.h; sourceTree = "<group>"; };
+		FF8993E2218B262F009F135E /* IJSD_ClassReviewReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewReviewViewController.m; sourceTree = "<group>"; };
+		FF8993E4218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewHistoryListTableViewCell.h; sourceTree = "<group>"; };
+		FF8993E5218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewHistoryListTableViewCell.m; sourceTree = "<group>"; };
+		FF8993E6218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ClassReviewHistoryListTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993E9218BE124009F135E /* IJSD_ClassReviewHistoryListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewHistoryListView.h; sourceTree = "<group>"; };
+		FF8993EA218BE124009F135E /* IJSD_ClassReviewHistoryListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewHistoryListView.m; sourceTree = "<group>"; };
+		FF8993EC218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ClassReviewHistoryListViewController.h; sourceTree = "<group>"; };
+		FF8993ED218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ClassReviewHistoryListViewController.m; sourceTree = "<group>"; };
+		FF8993EF218BE3CB009F135E /* JZD_ServeClassCommentDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassCommentDetailViewController.h; sourceTree = "<group>"; };
+		FF8993F0218BE3CB009F135E /* JZD_ServeClassCommentDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassCommentDetailViewController.m; sourceTree = "<group>"; };
+		FF8993F2218BE41C009F135E /* JZD_ServeClassCommentDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassCommentDetailView.h; sourceTree = "<group>"; };
+		FF8993F3218BE41D009F135E /* JZD_ServeClassCommentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassCommentDetailView.m; sourceTree = "<group>"; };
+		FF8993F5218BE462009F135E /* JZD_ClassCommentDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ClassCommentDetailTableViewCell.m; sourceTree = "<group>"; };
+		FF8993F6218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ClassCommentDetailTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993F7218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ClassCommentDetailTableViewCell.h; sourceTree = "<group>"; };
+		FF8993FA218BE497009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ServeClassCommentDetailEvaluateTableViewCell.xib; sourceTree = "<group>"; };
+		FF8993FB218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassCommentDetailEvaluateTableViewCell.m; sourceTree = "<group>"; };
+		FF8993FC218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassCommentDetailEvaluateTableViewCell.h; sourceTree = "<group>"; };
+		FF8993FF218BE4CE009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassCommentDetailEvaluateContentTableViewCell.h; sourceTree = "<group>"; };
+		FF899400218BE4CE009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib; sourceTree = "<group>"; };
+		FF899401218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m; sourceTree = "<group>"; };
+		FF899404218BE7D0009F135E /* JZD_ServeClassComentDetailContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassComentDetailContentView.h; sourceTree = "<group>"; };
+		FF899405218BE7D1009F135E /* JZD_ServeClassComentDetailContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassComentDetailContentView.m; sourceTree = "<group>"; };
+		FF899407218BE7E7009F135E /* JZD_ServeClassComentDetailContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_ServeClassComentDetailContentViewController.m; sourceTree = "<group>"; };
+		FF899408218BE7E7009F135E /* JZD_ServeClassComentDetailContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_ServeClassComentDetailContentViewController.h; sourceTree = "<group>"; };
+		FF89940A218BF412009F135E /* IJSD_TeachingPlanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingPlanViewController.h; sourceTree = "<group>"; };
+		FF89940B218BF412009F135E /* IJSD_TeachingPlanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingPlanViewController.m; sourceTree = "<group>"; };
+		FF89940D218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingPlanListTableViewCell.h; sourceTree = "<group>"; };
+		FF89940E218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingPlanListTableViewCell.m; sourceTree = "<group>"; };
+		FF89940F218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_TeachingPlanListTableViewCell.xib; sourceTree = "<group>"; };
+		FF899412218BFB5A009F135E /* IJSD_TeachingPlanListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_TeachingPlanListView.h; sourceTree = "<group>"; };
+		FF899413218BFB5A009F135E /* IJSD_TeachingPlanListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_TeachingPlanListView.m; sourceTree = "<group>"; };
+		FF899415218BFF69009F135E /* IJSD_PublicListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_PublicListTableViewCell.h; sourceTree = "<group>"; };
+		FF899416218BFF69009F135E /* IJSD_PublicListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_PublicListTableViewCell.m; sourceTree = "<group>"; };
+		FF899417218BFF69009F135E /* IJSD_PublicListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_PublicListTableViewCell.xib; sourceTree = "<group>"; };
+		FF89941A218C00F0009F135E /* IJSD_PublicListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_PublicListView.h; sourceTree = "<group>"; };
+		FF89941B218C00F0009F135E /* IJSD_PublicListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_PublicListView.m; sourceTree = "<group>"; };
+		FF89941D218C0182009F135E /* IJSD_PublicListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_PublicListViewController.h; sourceTree = "<group>"; };
+		FF89941E218C0182009F135E /* IJSD_PublicListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_PublicListViewController.m; sourceTree = "<group>"; };
+		FF899420218C027F009F135E /* IJSD_PublicDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_PublicDetailViewController.h; sourceTree = "<group>"; };
+		FF899421218C027F009F135E /* IJSD_PublicDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_PublicDetailViewController.m; sourceTree = "<group>"; };
+		FF899423218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_LouDaKaYuJingViewController.h; sourceTree = "<group>"; };
+		FF899424218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_LouDaKaYuJingViewController.m; sourceTree = "<group>"; };
+		FF899426218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_ChaLouBuQueTableViewCell.h; sourceTree = "<group>"; };
+		FF899427218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_ChaLouBuQueTableViewCell.m; sourceTree = "<group>"; };
+		FF899428218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_ChaLouBuQueTableViewCell.xib; sourceTree = "<group>"; };
+		FF89942B218C232B009F135E /* IJSD_LeakFillingListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_LeakFillingListView.h; sourceTree = "<group>"; };
+		FF89942C218C232B009F135E /* IJSD_LeakFillingListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_LeakFillingListView.m; sourceTree = "<group>"; };
+		FF89942E218C4C24009F135E /* IJSD_StudentsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_StudentsListViewController.h; sourceTree = "<group>"; };
+		FF89942F218C4C24009F135E /* IJSD_StudentsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_StudentsListViewController.m; sourceTree = "<group>"; };
+		FF899431218C59A2009F135E /* IJSD_StudentsListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_StudentsListTableViewCell.h; sourceTree = "<group>"; };
+		FF899432218C59A2009F135E /* IJSD_StudentsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_StudentsListTableViewCell.m; sourceTree = "<group>"; };
+		FF899433218C59A2009F135E /* IJSD_StudentsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_StudentsListTableViewCell.xib; sourceTree = "<group>"; };
+		FF899436218C6CE5009F135E /* IJSD_StudentsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_StudentsListView.h; sourceTree = "<group>"; };
+		FF899437218C6CE5009F135E /* IJSD_StudentsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_StudentsListView.m; sourceTree = "<group>"; };
+		FF899439218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_TimeTableSelectTimePromptView.h; sourceTree = "<group>"; };
+		FF89943A218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_TimeTableSelectTimePromptView.m; sourceTree = "<group>"; };
+		FF89943C218DE87C009F135E /* JZD_TimeTableSelectTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZD_TimeTableSelectTimeTableViewCell.h; sourceTree = "<group>"; };
+		FF89943D218DE87C009F135E /* JZD_TimeTableSelectTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JZD_TimeTableSelectTimeTableViewCell.xib; sourceTree = "<group>"; };
+		FF89943E218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZD_TimeTableSelectTimeTableViewCell.m; sourceTree = "<group>"; };
+		FF899441218DEE4D009F135E /* IJSD_AddStudentsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AddStudentsListViewController.h; sourceTree = "<group>"; };
+		FF899442218DEE4D009F135E /* IJSD_AddStudentsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AddStudentsListViewController.m; sourceTree = "<group>"; };
+		FF899444218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AddStudentsListTableViewCell.h; sourceTree = "<group>"; };
+		FF899445218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AddStudentsListTableViewCell.m; sourceTree = "<group>"; };
+		FF899446218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_AddStudentsListTableViewCell.xib; sourceTree = "<group>"; };
+		FF899449218DF184009F135E /* IJSD_AddStudentsListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_AddStudentsListView.h; sourceTree = "<group>"; };
+		FF89944A218DF184009F135E /* IJSD_AddStudentsListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_AddStudentsListView.m; sourceTree = "<group>"; };
+		FF89944C218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_DynamicSelectClassViewController.h; sourceTree = "<group>"; };
+		FF89944D218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_DynamicSelectClassViewController.m; sourceTree = "<group>"; };
+		FF89944F218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_DynamicSelectClassTableViewCell.h; sourceTree = "<group>"; };
+		FF899450218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_DynamicSelectClassTableViewCell.m; sourceTree = "<group>"; };
+		FF899451218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IJSD_DynamicSelectClassTableViewCell.xib; sourceTree = "<group>"; };
+		FF899454218DFABA009F135E /* IJSD_DynamicSelectClassListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSD_DynamicSelectClassListView.h; sourceTree = "<group>"; };
+		FF899455218DFABA009F135E /* IJSD_DynamicSelectClassListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSD_DynamicSelectClassListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +633,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED265CB16F9DFC211D30626 /* libPods-YiXinYiJiaoShiDuan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +654,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3173348FA1AEC501627526A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D43A55CE31A0C6FB4B895E34 /* libPods-YiXinYiJiaoShiDuan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73D9445D244DC15D264D3632 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFA16D2FB341EF34D45790D /* Pods-YiXinYiJiaoShiDuan.debug.xcconfig */,
+				FC661F1BBB3038DD115F7287 /* Pods-YiXinYiJiaoShiDuan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FF1838052182AC2400C8E9B8 = {
 			isa = PBXGroup;
 			children = (
+				FF8991F02186A3DF009F135E /* Podfile */,
 				FF1838102182AC2400C8E9B8 /* YiXinYiJiaoShiDuan */,
 				FF1838292182AC2600C8E9B8 /* YiXinYiJiaoShiDuanTests */,
 				FF1838342182AC2600C8E9B8 /* YiXinYiJiaoShiDuanUITests */,
 				FF18380F2182AC2400C8E9B8 /* Products */,
+				73D9445D244DC15D264D3632 /* Pods */,
+				3173348FA1AEC501627526A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +697,16 @@
 		FF1838102182AC2400C8E9B8 /* YiXinYiJiaoShiDuan */ = {
 			isa = PBXGroup;
 			children = (
+				FF8991F22186A6DB009F135E /* Utils */,
+				FF89924A2186B307009F135E /* PressentanceLayer */,
+				FF8992492186B2F9009F135E /* PersistenceLayer */,
+				FF8992152186A71B009F135E /* Libraries */,
 				FF1838112182AC2400C8E9B8 /* AppDelegate.h */,
 				FF1838122182AC2400C8E9B8 /* AppDelegate.m */,
 				FF1838142182AC2400C8E9B8 /* ViewController.h */,
 				FF1838152182AC2400C8E9B8 /* ViewController.m */,
+				FF8992472186B183009F135E /* MainTabBarController.h */,
+				FF8992462186B183009F135E /* MainTabBarController.m */,
 				FF1838172182AC2400C8E9B8 /* Main.storyboard */,
 				FF18381A2182AC2600C8E9B8 /* Assets.xcassets */,
 				FF18381C2182AC2600C8E9B8 /* LaunchScreen.storyboard */,
@@ -132,6 +734,620 @@
 			path = YiXinYiJiaoShiDuanUITests;
 			sourceTree = "<group>";
 		};
+		FF8991F22186A6DB009F135E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF8991F32186A6DB009F135E /* FWEB_CommonTools.h */,
+				FF8992062186A6DB009F135E /* FWEB_CommonTools.m */,
+				FF8992092186A6DB009F135E /* FWEB_NetWorkHelper.h */,
+				FF8991F52186A6DB009F135E /* FWEB_NetWorkHelper.m */,
+				FF8991F62186A6DB009F135E /* Extensions */,
+				FF8992052186A6DB009F135E /* FuWuEBao.pch */,
+				FF8992072186A6DB009F135E /* DefineMacro.h */,
+				FF8992082186A6DB009F135E /* InterfaceApi.h */,
+				FF89920A2186A6DB009F135E /* DefineRequest.h */,
+				FF89920B2186A6DB009F135E /* DefineTheme.h */,
+				FF8991F42186A6DB009F135E /* Notification.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FF8991F62186A6DB009F135E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FF8991F72186A6DB009F135E /* NSArray+FWEB_Extension.h */,
+				FF8991F82186A6DB009F135E /* UIImage+FWEB_Extension.m */,
+				FF8991F92186A6DB009F135E /* UIColor+FWEB_Extension.m */,
+				FF8991FA2186A6DB009F135E /* NSString+FWEB_Extension.m */,
+				FF8991FB2186A6DB009F135E /* NSDictionary+FWEB_NullDict.m */,
+				FF8991FC2186A6DB009F135E /* UITableView+IJXF_Reflash.h */,
+				FF8991FD2186A6DB009F135E /* UIView+FWEB_Extension.m */,
+				FF8991FE2186A6DB009F135E /* UIImage+FWEB_Extension.h */,
+				FF8991FF2186A6DB009F135E /* UIColor+FWEB_Extension.h */,
+				FF8992002186A6DB009F135E /* NSArray+FWEB_Extension.m */,
+				FF8992012186A6DB009F135E /* NSString+FWEB_Extension.h */,
+				FF8992022186A6DB009F135E /* NSDictionary+FWEB_NullDict.h */,
+				FF8992032186A6DB009F135E /* UIView+FWEB_Extension.h */,
+				FF8992042186A6DB009F135E /* UITableView+IJXF_Reflash.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FF8992152186A71B009F135E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992162186A71B009F135E /* XHStarRateView */,
+				FF89921B2186A71B009F135E /* Toast */,
+				FF89921E2186A71B009F135E /* CircleView */,
+				FF8992212186A71B009F135E /* KDCycleBannerView */,
+				FF8992252186A71B009F135E /* SGSegmentedControl */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FF8992162186A71B009F135E /* XHStarRateView */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992172186A71B009F135E /* XHStarRateView.h */,
+				FF8992182186A71B009F135E /* JZD_StarView.m */,
+				FF8992192186A71B009F135E /* JZD_StarView.h */,
+				FF89921A2186A71B009F135E /* XHStarRateView.m */,
+			);
+			path = XHStarRateView;
+			sourceTree = "<group>";
+		};
+		FF89921B2186A71B009F135E /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				FF89921C2186A71B009F135E /* UIView+Toast.h */,
+				FF89921D2186A71B009F135E /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		FF89921E2186A71B009F135E /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				FF89921F2186A71B009F135E /* SBPageFlowView.h */,
+				FF8992202186A71B009F135E /* SBPageFlowView.m */,
+			);
+			path = CircleView;
+			sourceTree = "<group>";
+		};
+		FF8992212186A71B009F135E /* KDCycleBannerView */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992222186A71B009F135E /* KDCycleBannerView.m */,
+				FF8992232186A71B009F135E /* KDCycleBannerView.h */,
+				FF8992242186A71B009F135E /* SDWebImage */,
+			);
+			path = KDCycleBannerView;
+			sourceTree = "<group>";
+		};
+		FF8992242186A71B009F135E /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		FF8992252186A71B009F135E /* SGSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992262186A71B009F135E /* SGSegmentedControlHelper.h */,
+				FF8992272186A71B009F135E /* SGSegmentedControlBottomView.h */,
+				FF8992282186A71B009F135E /* SGSegmentedControl.h */,
+				FF8992292186A71B009F135E /* SGSegmentedControlStatic.m */,
+				FF89922A2186A71B009F135E /* SGImageButton_Vertical.h */,
+				FF89922B2186A71B009F135E /* SGImageButton_Horizontal.h */,
+				FF89922C2186A71B009F135E /* SGNavigationItemTitleView.h */,
+				FF89922D2186A71B009F135E /* SGSegmentedControlDefault.h */,
+				FF89922E2186A71B009F135E /* UIView+SGExtension.m */,
+				FF89922F2186A71B009F135E /* SGSegmentedControlStatic.h */,
+				FF8992302186A71B009F135E /* SGSegmentedControlBottomView.m */,
+				FF8992312186A71B009F135E /* SGImageButton_Horizontal.m */,
+				FF8992322186A71B009F135E /* SGImageButton_Vertical.m */,
+				FF8992332186A71B009F135E /* UIView+SGExtension.h */,
+				FF8992342186A71B009F135E /* SGSegmentedControlDefault.m */,
+				FF8992352186A71B009F135E /* SGNavigationItemTitleView.m */,
+			);
+			path = SGSegmentedControl;
+			sourceTree = "<group>";
+		};
+		FF8992492186B2F9009F135E /* PersistenceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF89924B2186B336009F135E /* Api */,
+			);
+			path = PersistenceLayer;
+			sourceTree = "<group>";
+		};
+		FF89924A2186B307009F135E /* PressentanceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992532186B3EA009F135E /* IJSD_BasicViewController.h */,
+				FF8992542186B3EA009F135E /* IJSD_BasicViewController.m */,
+				FF8992562186B406009F135E /* IJSD_BasicTableViewCell.h */,
+				FF8992572186B406009F135E /* IJSD_BasicTableViewCell.m */,
+				FF8992582186B406009F135E /* IJSD_BasicTableViewCell.xib */,
+				FF89927B2186B991009F135E /* Login */,
+				FF8992522186B3A9009F135E /* Name */,
+				FF8992512186B3A1009F135E /* Message */,
+				FF8992502186B399009F135E /* Account */,
+				FF89924F2186B392009F135E /* Home */,
+			);
+			path = PressentanceLayer;
+			sourceTree = "<group>";
+		};
+		FF89924B2186B336009F135E /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				FF89924D2186B35F009F135E /* FWEB_BasicApi.h */,
+				FF89924C2186B35E009F135E /* FWEB_BasicApi.m */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		FF89924F2186B392009F135E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992662186B527009F135E /* Controllers */,
+				FF8992652186B51E009F135E /* Views */,
+				FF8992642186B517009F135E /* Cells */,
+				FF8992762186B5FB009F135E /* IJSD_HomeViewController.h */,
+				FF8992772186B5FB009F135E /* IJSD_HomeViewController.m */,
+				FF8992792186B607009F135E /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF8992502186B399009F135E /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992632186B50F009F135E /* Controllers */,
+				FF8992622186B509009F135E /* Views */,
+				FF8992612186B502009F135E /* Cells */,
+				FF8992712186B5E0009F135E /* IJSD_AccountViewController.h */,
+				FF8992722186B5E0009F135E /* IJSD_AccountViewController.m */,
+				FF8992742186B5EE009F135E /* Account.storyboard */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		FF8992512186B3A1009F135E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992602186B4F9009F135E /* Controllers */,
+				FF89925F2186B4F2009F135E /* Views */,
+				FF89925E2186B4EB009F135E /* Cells */,
+				FF89926C2186B5C1009F135E /* IJSD_MessageViewController.h */,
+				FF89926D2186B5C1009F135E /* IJSD_MessageViewController.m */,
+				FF89926F2186B5CE009F135E /* Message.storyboard */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FF8992522186B3A9009F135E /* Name */ = {
+			isa = PBXGroup;
+			children = (
+				FF89925D2186B4DE009F135E /* Controllers */,
+				FF89925C2186B4D8009F135E /* Views */,
+				FF89925B2186B4CF009F135E /* Cells */,
+				FF8992672186B58B009F135E /* IJSD_CallNamesViewController.h */,
+				FF8992682186B58B009F135E /* IJSD_CallNamesViewController.m */,
+				FF89926A2186B5A5009F135E /* CallNames.storyboard */,
+			);
+			path = Name;
+			sourceTree = "<group>";
+		};
+		FF89925B2186B4CF009F135E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992F921883514009F135E /* IJSD_CallNamesTableViewCell.h */,
+				FF8992FA21883514009F135E /* IJSD_CallNamesTableViewCell.m */,
+				FF8992FB21883514009F135E /* IJSD_CallNamesTableViewCell.xib */,
+				FF899431218C59A2009F135E /* IJSD_StudentsListTableViewCell.h */,
+				FF899432218C59A2009F135E /* IJSD_StudentsListTableViewCell.m */,
+				FF899433218C59A2009F135E /* IJSD_StudentsListTableViewCell.xib */,
+				FF89943C218DE87C009F135E /* JZD_TimeTableSelectTimeTableViewCell.h */,
+				FF89943E218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.m */,
+				FF89943D218DE87C009F135E /* JZD_TimeTableSelectTimeTableViewCell.xib */,
+				FF899444218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.h */,
+				FF899445218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.m */,
+				FF899446218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF89925C2186B4D8009F135E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992FE218837D6009F135E /* IJSD_CallNamesListView.h */,
+				FF8992FF218837D6009F135E /* IJSD_CallNamesListView.m */,
+				FF899436218C6CE5009F135E /* IJSD_StudentsListView.h */,
+				FF899437218C6CE5009F135E /* IJSD_StudentsListView.m */,
+				FF899439218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.h */,
+				FF89943A218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.m */,
+				FF899449218DF184009F135E /* IJSD_AddStudentsListView.h */,
+				FF89944A218DF184009F135E /* IJSD_AddStudentsListView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF89925D2186B4DE009F135E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF89942E218C4C24009F135E /* IJSD_StudentsListViewController.h */,
+				FF89942F218C4C24009F135E /* IJSD_StudentsListViewController.m */,
+				FF899441218DEE4D009F135E /* IJSD_AddStudentsListViewController.h */,
+				FF899442218DEE4D009F135E /* IJSD_AddStudentsListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF89925E2186B4EB009F135E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF89933A21898922009F135E /* JZD_MessageListTableViewCell.h */,
+				FF89933C21898923009F135E /* JZD_MessageListTableViewCell.m */,
+				FF89933B21898923009F135E /* JZD_MessageListTableViewCell.xib */,
+				FF89934521898A92009F135E /* JZD_AddressBookListTableViewCell.h */,
+				FF89934621898A92009F135E /* JZD_AddressBookListTableViewCell.m */,
+				FF89934721898A93009F135E /* JZD_AddressBookListTableViewCell.xib */,
+				FF89935521898D0A009F135E /* JZD_GroupChatMemberTableViewCell.h */,
+				FF89935421898D0A009F135E /* JZD_GroupChatMemberTableViewCell.m */,
+				FF89935321898D09009F135E /* JZD_GroupChatMemberTableViewCell.xib */,
+				FF89935A21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.h */,
+				FF89935821898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.m */,
+				FF89935921898D3C009F135E /* JZD_GroupChatMemberNoticeTableViewCell.xib */,
+				FF89936021898D8E009F135E /* JZD_GroupChatMemberListCollectionViewCell.h */,
+				FF89936221898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.m */,
+				FF89936121898D8F009F135E /* JZD_GroupChatMemberListCollectionViewCell.xib */,
+				FF89936C21898E37009F135E /* JZD_GroupChatNoticesTableViewCell.h */,
+				FF89936B21898E37009F135E /* JZD_GroupChatNoticesTableViewCell.m */,
+				FF89936D21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF89925F2186B4F2009F135E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF89933721898903009F135E /* JZD_MessageListView.h */,
+				FF89933821898903009F135E /* JZD_MessageListView.m */,
+				FF89934321898A75009F135E /* JZD_MessageAddressBookListView.h */,
+				FF89934221898A75009F135E /* JZD_MessageAddressBookListView.m */,
+				FF89935121898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.h */,
+				FF89935021898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.m */,
+				FF89935E21898D71009F135E /* JZD_GroupChatMemberListView.h */,
+				FF89935D21898D71009F135E /* JZD_GroupChatMemberListView.m */,
+				FF89936921898E13009F135E /* JZD_GroupChatNoticesView.h */,
+				FF89936821898E12009F135E /* JZD_GroupChatNoticesView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8992602186B4F9009F135E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF89933F21898A44009F135E /* JZD_MessageAddressBookListViewController.h */,
+				FF89934021898A45009F135E /* JZD_MessageAddressBookListViewController.m */,
+				FF89934A21898B4A009F135E /* JZD_MessageGroupChatViewController.h */,
+				FF89934B21898B4B009F135E /* JZD_MessageGroupChatViewController.m */,
+				FF89934E21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.h */,
+				FF89934D21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.m */,
+				FF89936521898DE8009F135E /* JZD_GroupChatNoticesViewController.h */,
+				FF89936621898DE9009F135E /* JZD_GroupChatNoticesViewController.m */,
+				FF89937021898EAA009F135E /* JZD_GroupChatMemberListViewController.h */,
+				FF89937121898EAA009F135E /* JZD_GroupChatMemberListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF8992612186B502009F135E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992812186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.h */,
+				FF8992802186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.m */,
+				FF89927F2186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.xib */,
+				FF8992972186FB78009F135E /* JZD_AccountSetModifyPwdTableViewCell.h */,
+				FF8992982186FB78009F135E /* JZD_AccountSetModifyPwdTableViewCell.m */,
+				FF8992992186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.xib */,
+				FF89929C2186FB96009F135E /* JZD_LoginButtonTableViewCell.h */,
+				FF89929D2186FB96009F135E /* JZD_LoginButtonTableViewCell.m */,
+				FF89929E2186FB97009F135E /* JZD_LoginButtonTableViewCell.xib */,
+				FF8992A12187013F009F135E /* JZD_ServeClassConditionListTableViewCell.h */,
+				FF8992A321870140009F135E /* JZD_ServeClassConditionListTableViewCell.m */,
+				FF8992A22187013F009F135E /* JZD_ServeClassConditionListTableViewCell.xib */,
+				FF8992AC21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.h */,
+				FF8992AD21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.m */,
+				FF8992AE21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF8992622186B509009F135E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992872186F604009F135E /* JZD_AccountSetPromptView.h */,
+				FF8992882186F604009F135E /* JZD_AccountSetPromptView.m */,
+				FF8992892186F604009F135E /* JZD_AccountSetPromptView.xib */,
+				FF89928F2186FB18009F135E /* JZD_FirstLoginPromptView.h */,
+				FF8992902186FB19009F135E /* JZD_FirstLoginPromptView.m */,
+				FF8992912186FB19009F135E /* JZD_FirstLoginPromptView.xib */,
+				FF8992842186F2D1009F135E /* JZD_AccountSetView.h */,
+				FF8992852186F2D1009F135E /* JZD_AccountSetView.m */,
+				FF8992942186FB41009F135E /* JZD_AccountSetModifyPwdView.h */,
+				FF8992952186FB41009F135E /* JZD_AccountSetModifyPwdView.m */,
+				FF8992A621870178009F135E /* JZD_ServeClassConditionListView.h */,
+				FF8992A721870178009F135E /* JZD_ServeClassConditionListView.m */,
+				FF8992B221870A54009F135E /* JZD_ServeClassConditionDetailView.h */,
+				FF8992B121870A53009F135E /* JZD_ServeClassConditionDetailView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8992632186B50F009F135E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF89927C2186F0DA009F135E /* IJSD_AccountSetViewController.h */,
+				FF89927D2186F0DA009F135E /* IJSD_AccountSetViewController.m */,
+				FF89928D2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.h */,
+				FF89928C2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.m */,
+				FF8992A921870195009F135E /* JZD_ServeClassConditionListViewController.h */,
+				FF8992AA21870195009F135E /* JZD_ServeClassConditionListViewController.m */,
+				FF8992B421870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.h */,
+				FF8992B521870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.m */,
+				FF8992B721871309009F135E /* IJSD_AccountMyEvaluateViewController.h */,
+				FF8992B821871309009F135E /* IJSD_AccountMyEvaluateViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF8992642186B517009F135E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF89930821884694009F135E /* JZD_HomeCourseTableViewCell.h */,
+				FF89930721884694009F135E /* JZD_HomeCourseTableViewCell.m */,
+				FF89930921884695009F135E /* JZD_HomeCourseTableViewCell.xib */,
+				FF89930F218846F7009F135E /* JZD_HomeCourseCollectionViewCell.h */,
+				FF899311218846F8009F135E /* JZD_HomeCourseCollectionViewCell.m */,
+				FF899310218846F7009F135E /* JZD_HomeCourseCollectionViewCell.xib */,
+				FF89931421885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.h */,
+				FF89931521885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.m */,
+				FF89931621885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.xib */,
+				FF89931C21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.h */,
+				FF89931D21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.m */,
+				FF89931E21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.xib */,
+				FF8993272189427D009F135E /* IJSD_GradeStudentListTableViewCell.h */,
+				FF8993282189427D009F135E /* IJSD_GradeStudentListTableViewCell.m */,
+				FF8993292189427D009F135E /* IJSD_GradeStudentListTableViewCell.xib */,
+				FF89937921899F0F009F135E /* IJSD_TeachingReportListTableViewCell.h */,
+				FF89937A21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.m */,
+				FF89937B21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.xib */,
+				FF8993842189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.h */,
+				FF8993852189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.m */,
+				FF8993862189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.xib */,
+				FF8993892189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.h */,
+				FF89938A2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.m */,
+				FF89938B2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.xib */,
+				FF899394218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.h */,
+				FF899395218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.m */,
+				FF899396218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.xib */,
+				FF899399218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.h */,
+				FF89939A218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.m */,
+				FF89939B218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.xib */,
+				FF8993AA218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.h */,
+				FF8993AB218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.m */,
+				FF8993AC218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.xib */,
+				FF8993BA218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.h */,
+				FF8993B9218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.m */,
+				FF8993B8218AE662009F135E /* JZD_ServeCalendarCollectionViewCell.xib */,
+				FF8993BD218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.h */,
+				FF8993BE218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.m */,
+				FF8993BF218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.xib */,
+				FF8993C8218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.h */,
+				FF8993C9218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.m */,
+				FF8993CA218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.xib */,
+				FF8993D6218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.h */,
+				FF8993D7218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.m */,
+				FF8993D8218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.xib */,
+				FF8993E4218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.h */,
+				FF8993E5218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.m */,
+				FF8993E6218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.xib */,
+				FF8993F7218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.h */,
+				FF8993F5218BE462009F135E /* JZD_ClassCommentDetailTableViewCell.m */,
+				FF8993F6218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.xib */,
+				FF8993FC218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.h */,
+				FF8993FB218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.m */,
+				FF8993FA218BE497009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.xib */,
+				FF8993FF218BE4CE009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.h */,
+				FF899401218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m */,
+				FF899400218BE4CE009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib */,
+				FF89940D218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.h */,
+				FF89940E218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.m */,
+				FF89940F218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.xib */,
+				FF899415218BFF69009F135E /* IJSD_PublicListTableViewCell.h */,
+				FF899416218BFF69009F135E /* IJSD_PublicListTableViewCell.m */,
+				FF899417218BFF69009F135E /* IJSD_PublicListTableViewCell.xib */,
+				FF899426218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.h */,
+				FF899427218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.m */,
+				FF899428218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.xib */,
+				FF89944F218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.h */,
+				FF899450218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.m */,
+				FF899451218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FF8992652186B51E009F135E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF89930521884648009F135E /* IJXF_AdvertisingView.h */,
+				FF89930421884648009F135E /* IJXF_AdvertisingView.m */,
+				FF899301218845EE009F135E /* IJSD_HomeView.h */,
+				FF899302218845EE009F135E /* IJSD_HomeView.m */,
+				FF89930D218846DE009F135E /* JZD_HomeCourseCollectionView.h */,
+				FF89930C218846DD009F135E /* JZD_HomeCourseCollectionView.m */,
+				FF8993212188808D009F135E /* IJSD_SelectCampusAndExamPromptView.h */,
+				FF8993222188808D009F135E /* IJSD_SelectCampusAndExamPromptView.m */,
+				FF89932C2189443E009F135E /* IJSD_SelectClassInputGradeListView.h */,
+				FF89932D2189443E009F135E /* IJSD_SelectClassInputGradeListView.m */,
+				FF8993322189532E009F135E /* IJSD_GradeInputSurePromptView.h */,
+				FF8993332189532E009F135E /* IJSD_GradeInputSurePromptView.m */,
+				FF89933521895346009F135E /* IJSD_GradeInputSurePromptView.xib */,
+				FF89937E2189A0ED009F135E /* IJSD_TeachingReportListView.h */,
+				FF89937F2189A0ED009F135E /* IJSD_TeachingReportListView.m */,
+				FF89938E2189AF3D009F135E /* IJSD_TeachingReportEditView.h */,
+				FF89938F2189AF3E009F135E /* IJSD_TeachingReportEditView.m */,
+				FF89939E218AA8C8009F135E /* IJSD_ClassScheduleWeekView.h */,
+				FF89939F218AA8C8009F135E /* IJSD_ClassScheduleWeekView.m */,
+				FF8993AF218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.h */,
+				FF8993B0218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.m */,
+				FF8993B6218AE63B009F135E /* JZD_ServeCalendarView.h */,
+				FF8993B5218AE63B009F135E /* JZD_ServeCalendarView.m */,
+				FF8993C2218AF31F009F135E /* IJSD_ClassScheduleMonthListView.h */,
+				FF8993C3218AF31F009F135E /* IJSD_ClassScheduleMonthListView.m */,
+				FF8993CD218B0061009F135E /* IJSD_ClassReviewListView.h */,
+				FF8993CE218B0061009F135E /* IJSD_ClassReviewListView.m */,
+				FF8993DB218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.h */,
+				FF8993DC218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.m */,
+				FF8993E9218BE124009F135E /* IJSD_ClassReviewHistoryListView.h */,
+				FF8993EA218BE124009F135E /* IJSD_ClassReviewHistoryListView.m */,
+				FF8993F2218BE41C009F135E /* JZD_ServeClassCommentDetailView.h */,
+				FF8993F3218BE41D009F135E /* JZD_ServeClassCommentDetailView.m */,
+				FF899404218BE7D0009F135E /* JZD_ServeClassComentDetailContentView.h */,
+				FF899405218BE7D1009F135E /* JZD_ServeClassComentDetailContentView.m */,
+				FF899412218BFB5A009F135E /* IJSD_TeachingPlanListView.h */,
+				FF899413218BFB5A009F135E /* IJSD_TeachingPlanListView.m */,
+				FF89941A218C00F0009F135E /* IJSD_PublicListView.h */,
+				FF89941B218C00F0009F135E /* IJSD_PublicListView.m */,
+				FF89942B218C232B009F135E /* IJSD_LeakFillingListView.h */,
+				FF89942C218C232B009F135E /* IJSD_LeakFillingListView.m */,
+				FF899454218DFABA009F135E /* IJSD_DynamicSelectClassListView.h */,
+				FF899455218DFABA009F135E /* IJSD_DynamicSelectClassListView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8992662186B527009F135E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF89931921885F58009F135E /* IJSD_GradeSelectCampusViewController.h */,
+				FF89931A21885F58009F135E /* IJSD_GradeSelectCampusViewController.m */,
+				FF89932421893B72009F135E /* IJSD_GradeSelectClassViewController.h */,
+				FF89932521893B72009F135E /* IJSD_GradeSelectClassViewController.m */,
+				FF89932F21894E43009F135E /* IJSD_GradeInputSuccessViewController.h */,
+				FF89933021894E43009F135E /* IJSD_GradeInputSuccessViewController.m */,
+				FF89937321899898009F135E /* IJSD_TeachingReportViewController.h */,
+				FF89937421899898009F135E /* IJSD_TeachingReportViewController.m */,
+				FF89937621899BE0009F135E /* IJSD_TeachingReportListViewController.h */,
+				FF89937721899BE0009F135E /* IJSD_TeachingReportListViewController.m */,
+				FF8993812189A82D009F135E /* IJSD_TeachingReportEditViewController.h */,
+				FF8993822189A82D009F135E /* IJSD_TeachingReportEditViewController.m */,
+				FF899391218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.h */,
+				FF899392218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.m */,
+				FF8993A1218AAD48009F135E /* IJSD_ClassScheduleWeekViewController.h */,
+				FF8993A2218AAD49009F135E /* IJSD_ClassScheduleWeekViewController.m */,
+				FF8993A4218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.h */,
+				FF8993A5218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.m */,
+				FF8993A7218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.h */,
+				FF8993A8218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.m */,
+				FF8993B2218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.h */,
+				FF8993B3218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.m */,
+				FF8993C5218AFBE3009F135E /* IJSD_ClassReviewViewController.h */,
+				FF8993C6218AFBE3009F135E /* IJSD_ClassReviewViewController.m */,
+				FF8993D0218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.h */,
+				FF8993D1218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.m */,
+				FF8993D3218B06D4009F135E /* IJSD_ClassReviewContentViewController.h */,
+				FF8993D4218B06D4009F135E /* IJSD_ClassReviewContentViewController.m */,
+				FF8993DE218B1E76009F135E /* IJSD_ClassReviewTemplateViewController.h */,
+				FF8993DF218B1E77009F135E /* IJSD_ClassReviewTemplateViewController.m */,
+				FF8993E1218B262F009F135E /* IJSD_ClassReviewReviewViewController.h */,
+				FF8993E2218B262F009F135E /* IJSD_ClassReviewReviewViewController.m */,
+				FF8993EC218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.h */,
+				FF8993ED218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.m */,
+				FF8993EF218BE3CB009F135E /* JZD_ServeClassCommentDetailViewController.h */,
+				FF8993F0218BE3CB009F135E /* JZD_ServeClassCommentDetailViewController.m */,
+				FF899408218BE7E7009F135E /* JZD_ServeClassComentDetailContentViewController.h */,
+				FF899407218BE7E7009F135E /* JZD_ServeClassComentDetailContentViewController.m */,
+				FF89940A218BF412009F135E /* IJSD_TeachingPlanViewController.h */,
+				FF89940B218BF412009F135E /* IJSD_TeachingPlanViewController.m */,
+				FF89941D218C0182009F135E /* IJSD_PublicListViewController.h */,
+				FF89941E218C0182009F135E /* IJSD_PublicListViewController.m */,
+				FF899420218C027F009F135E /* IJSD_PublicDetailViewController.h */,
+				FF899421218C027F009F135E /* IJSD_PublicDetailViewController.m */,
+				FF899423218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.h */,
+				FF899424218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.m */,
+				FF89944C218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.h */,
+				FF89944D218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF89927B2186B991009F135E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992C12187326C009F135E /* Cells */,
+				FF8992C021873266009F135E /* Views */,
+				FF8992BF2187325D009F135E /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF8992BF2187325D009F135E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992BB21873211009F135E /* JZD_FirstLoginViewController.h */,
+				FF8992BC21873211009F135E /* JZD_FirstLoginViewController.m */,
+				FF8992BA21873211009F135E /* JZD_FirstLoginViewController.xib */,
+				FF8992D921873926009F135E /* JZD_ForgetPwdPhoneViewController.h */,
+				FF8992DA21873926009F135E /* JZD_ForgetPwdPhoneViewController.m */,
+				FF8992DB21873927009F135E /* JZD_ForgetPwdPhoneViewController.xib */,
+				FF8992E12187FDD0009F135E /* JZD_ForgetPwdCodeViewController.h */,
+				FF8992E22187FDD0009F135E /* JZD_ForgetPwdCodeViewController.m */,
+				FF8992E32187FDD1009F135E /* JZD_ForgetPwdCodeViewController.xib */,
+				FF8992EE218803EE009F135E /* JZD_PwdOrCodeLoginViewController.h */,
+				FF8992ED218803ED009F135E /* JZD_PwdOrCodeLoginViewController.m */,
+				FF8992EC218803ED009F135E /* JZD_PwdOrCodeLoginViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FF8992C021873266009F135E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992D421873525009F135E /* JZD_FirstLoginHeaderView.h */,
+				FF8992D521873525009F135E /* JZD_FirstLoginHeaderView.m */,
+				FF8992D621873526009F135E /* JZD_FirstLoginHeaderView.xib */,
+				FF8992F6218804A8009F135E /* JZD_LoginHeaderView.h */,
+				FF8992F4218804A7009F135E /* JZD_LoginHeaderView.m */,
+				FF8992F5218804A7009F135E /* JZD_LoginHeaderView.xib */,
+				FF8992C82187331D009F135E /* JZD_FirstLoginView.h */,
+				FF8992C72187331C009F135E /* JZD_FirstLoginView.m */,
+				FF8992DF21873958009F135E /* JZD_ForgetPwdPhoneView.h */,
+				FF8992DE21873958009F135E /* JZD_ForgetPwdPhoneView.m */,
+				FF8992E62187FE03009F135E /* JZD_ForgetPwdCodeView.h */,
+				FF8992E72187FE03009F135E /* JZD_ForgetPwdCodeView.m */,
+				FF8992F221880433009F135E /* JZD_PwdOrCodeLoginView.h */,
+				FF8992F121880432009F135E /* JZD_PwdOrCodeLoginView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FF8992C12187326C009F135E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FF8992CB21873356009F135E /* JZD_PhoneCodePwdTableViewCell.h */,
+				FF8992CC21873357009F135E /* JZD_PhoneCodePwdTableViewCell.m */,
+				FF8992CA21873356009F135E /* JZD_PhoneCodePwdTableViewCell.xib */,
+				FF8992CF21873384009F135E /* JZD_QuickLoginTableViewCell.h */,
+				FF8992D021873385009F135E /* JZD_QuickLoginTableViewCell.m */,
+				FF8992D121873385009F135E /* JZD_QuickLoginTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +1355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF18383A2182AC2600C8E9B8 /* Build configuration list for PBXNativeTarget "YiXinYiJiaoShiDuan" */;
 			buildPhases = (
+				B5D21E362CBC7BF7DA313C4A /* [CP] Check Pods Manifest.lock */,
 				FF18380A2182AC2400C8E9B8 /* Sources */,
 				FF18380B2182AC2400C8E9B8 /* Frameworks */,
 				FF18380C2182AC2400C8E9B8 /* Resources */,
+				105C449A52B2303DA74B9808 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +1412,7 @@
 		FF1838062182AC2400C8E9B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IJSD_;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "楚二洋";
 				TargetAttributes = {
@@ -235,9 +1454,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF89938D2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.xib in Resources */,
+				FF89933621895346009F135E /* IJSD_GradeInputSurePromptView.xib in Resources */,
+				FF8992CD21873357009F135E /* JZD_PhoneCodePwdTableViewCell.xib in Resources */,
+				FF89932B2189427D009F135E /* IJSD_GradeStudentListTableViewCell.xib in Resources */,
+				FF89931821885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.xib in Resources */,
+				FF8993FD218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.xib in Resources */,
+				FF8992E52187FDD1009F135E /* JZD_ForgetPwdCodeViewController.xib in Resources */,
 				FF18381E2182AC2600C8E9B8 /* LaunchScreen.storyboard in Resources */,
+				FF8992FD21883514009F135E /* IJSD_CallNamesTableViewCell.xib in Resources */,
+				FF89925A2186B406009F135E /* IJSD_BasicTableViewCell.xib in Resources */,
+				FF899453218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.xib in Resources */,
+				FF8992822186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.xib in Resources */,
+				FF8992EF218803EE009F135E /* JZD_PwdOrCodeLoginViewController.xib in Resources */,
+				FF8993DA218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.xib in Resources */,
+				FF899411218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.xib in Resources */,
+				FF8992D321873385009F135E /* JZD_QuickLoginTableViewCell.xib in Resources */,
+				FF899448218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.xib in Resources */,
+				FF89929B2186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.xib in Resources */,
 				FF18381B2182AC2600C8E9B8 /* Assets.xcassets in Resources */,
+				FF899398218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.xib in Resources */,
+				FF89936321898D90009F135E /* JZD_GroupChatMemberListCollectionViewCell.xib in Resources */,
+				FF899435218C59A3009F135E /* IJSD_StudentsListTableViewCell.xib in Resources */,
+				FF8992DD21873927009F135E /* JZD_ForgetPwdPhoneViewController.xib in Resources */,
+				FF8993BB218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.xib in Resources */,
+				FF8993882189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.xib in Resources */,
+				FF89942A218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.xib in Resources */,
+				FF89928B2186F605009F135E /* JZD_AccountSetPromptView.xib in Resources */,
+				FF89930B21884695009F135E /* JZD_HomeCourseTableViewCell.xib in Resources */,
+				FF89927A2186B607009F135E /* Home.storyboard in Resources */,
+				FF8992F8218804A8009F135E /* JZD_LoginHeaderView.xib in Resources */,
+				FF8992BD21873211009F135E /* JZD_FirstLoginViewController.xib in Resources */,
+				FF89937D21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.xib in Resources */,
+				FF89926B2186B5A5009F135E /* CallNames.storyboard in Resources */,
+				FF8993F9218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.xib in Resources */,
+				FF89932021887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.xib in Resources */,
+				FF89939D218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.xib in Resources */,
+				FF8991F12186A3E0009F135E /* Podfile in Resources */,
+				FF89935621898D0A009F135E /* JZD_GroupChatMemberTableViewCell.xib in Resources */,
+				FF8993E8218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.xib in Resources */,
+				FF89935C21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.xib in Resources */,
 				FF1838192182AC2400C8E9B8 /* Main.storyboard in Resources */,
+				FF8992752186B5EE009F135E /* Account.storyboard in Resources */,
+				FF899419218BFF69009F135E /* IJSD_PublicListTableViewCell.xib in Resources */,
+				FF89943F218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.xib in Resources */,
+				FF89933D21898923009F135E /* JZD_MessageListTableViewCell.xib in Resources */,
+				FF8992932186FB19009F135E /* JZD_FirstLoginPromptView.xib in Resources */,
+				FF8992A02186FB97009F135E /* JZD_LoginButtonTableViewCell.xib in Resources */,
+				FF8993C1218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.xib in Resources */,
+				FF8992B021870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.xib in Resources */,
+				FF8993AE218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.xib in Resources */,
+				FF89936F21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.xib in Resources */,
+				FF899402218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.xib in Resources */,
+				FF89934921898A93009F135E /* JZD_AddressBookListTableViewCell.xib in Resources */,
+				FF899312218846F8009F135E /* JZD_HomeCourseCollectionViewCell.xib in Resources */,
+				FF8993CC218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.xib in Resources */,
+				FF8992D821873526009F135E /* JZD_FirstLoginHeaderView.xib in Resources */,
+				FF8992A421870140009F135E /* JZD_ServeClassConditionListTableViewCell.xib in Resources */,
+				FF8992702186B5CE009F135E /* Message.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +1531,206 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105C449A52B2303DA74B9808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YiXinYiJiaoShiDuan/Pods-YiXinYiJiaoShiDuan-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YiXinYiJiaoShiDuan/Pods-YiXinYiJiaoShiDuan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D21E362CBC7BF7DA313C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YiXinYiJiaoShiDuan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF18380A2182AC2400C8E9B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF89932E2189443E009F135E /* IJSD_SelectClassInputGradeListView.m in Sources */,
+				FF89926E2186B5C1009F135E /* IJSD_MessageViewController.m in Sources */,
+				FF8992392186A71C009F135E /* SBPageFlowView.m in Sources */,
+				FF8992122186A6DB009F135E /* NSArray+FWEB_Extension.m in Sources */,
+				FF8992B921871309009F135E /* IJSD_AccountMyEvaluateViewController.m in Sources */,
+				FF8993902189AF3E009F135E /* IJSD_TeachingReportEditView.m in Sources */,
+				FF89936421898D90009F135E /* JZD_GroupChatMemberListCollectionViewCell.m in Sources */,
+				FF89933921898903009F135E /* JZD_MessageListView.m in Sources */,
+				FF89936A21898E13009F135E /* JZD_GroupChatNoticesView.m in Sources */,
+				FF89923E2186A71C009F135E /* SGImageButton_Horizontal.m in Sources */,
+				FF8992BE21873211009F135E /* JZD_FirstLoginViewController.m in Sources */,
+				FF899425218C03EC009F135E /* IJSD_LouDaKaYuJingViewController.m in Sources */,
+				FF899438218C6CE5009F135E /* IJSD_StudentsListView.m in Sources */,
+				FF899443218DEE4D009F135E /* IJSD_AddStudentsListViewController.m in Sources */,
+				FF8992112186A6DB009F135E /* UIView+FWEB_Extension.m in Sources */,
+				FF8992B321870A54009F135E /* JZD_ServeClassConditionDetailView.m in Sources */,
+				FF89944B218DF184009F135E /* IJSD_AddStudentsListView.m in Sources */,
+				FF899430218C4C24009F135E /* IJSD_StudentsListViewController.m in Sources */,
+				FF8992782186B5FB009F135E /* IJSD_HomeViewController.m in Sources */,
+				FF89934F21898C77009F135E /* JZD_GroupChatMemberAndNoticeViewController.m in Sources */,
+				FF89934121898A45009F135E /* JZD_MessageAddressBookListViewController.m in Sources */,
+				FF8993DD218B1BE3009F135E /* IJSD_ClassReviewTemplateListView.m in Sources */,
+				FF8992F0218803EE009F135E /* JZD_PwdOrCodeLoginViewController.m in Sources */,
+				FF8992362186A71C009F135E /* JZD_StarView.m in Sources */,
+				FF899300218837D6009F135E /* IJSD_CallNamesListView.m in Sources */,
+				FF899414218BFB5A009F135E /* IJSD_TeachingPlanListView.m in Sources */,
+				FF8993EE218BE1BD009F135E /* IJSD_ClassReviewHistoryListViewController.m in Sources */,
+				FF89935B21898D3D009F135E /* JZD_GroupChatMemberNoticeTableViewCell.m in Sources */,
+				FF89931B21885F58009F135E /* IJSD_GradeSelectCampusViewController.m in Sources */,
+				FF8992962186FB41009F135E /* JZD_AccountSetModifyPwdView.m in Sources */,
+				FF8993C7218AFBE3009F135E /* IJSD_ClassReviewViewController.m in Sources */,
+				FF89929F2186FB97009F135E /* JZD_LoginButtonTableViewCell.m in Sources */,
+				FF8992382186A71C009F135E /* UIView+Toast.m in Sources */,
+				FF89934C21898B4B009F135E /* JZD_MessageGroupChatViewController.m in Sources */,
+				FF899447218DEF41009F135E /* IJSD_AddStudentsListTableViewCell.m in Sources */,
+				FF89920F2186A6DB009F135E /* NSString+FWEB_Extension.m in Sources */,
+				FF8993A0218AA8C8009F135E /* IJSD_ClassScheduleWeekView.m in Sources */,
+				FF8993832189A82D009F135E /* IJSD_TeachingReportEditViewController.m in Sources */,
+				FF89923C2186A71C009F135E /* UIView+SGExtension.m in Sources */,
+				FF8993CB218AFE50009F135E /* IJSD_ClassReviewListTableViewCell.m in Sources */,
+				FF89942D218C232B009F135E /* IJSD_LeakFillingListView.m in Sources */,
+				FF8993F8218BE463009F135E /* JZD_ClassCommentDetailTableViewCell.m in Sources */,
+				FF8992E82187FE03009F135E /* JZD_ForgetPwdCodeView.m in Sources */,
+				FF8993FE218BE498009F135E /* JZD_ServeClassCommentDetailEvaluateTableViewCell.m in Sources */,
+				FF89937521899898009F135E /* IJSD_TeachingReportViewController.m in Sources */,
+				FF8992732186B5E0009F135E /* IJSD_AccountViewController.m in Sources */,
+				FF8992A521870140009F135E /* JZD_ServeClassConditionListTableViewCell.m in Sources */,
+				FF89923A2186A71C009F135E /* KDCycleBannerView.m in Sources */,
+				FF899440218DE87D009F135E /* JZD_TimeTableSelectTimeTableViewCell.m in Sources */,
+				FF89936E21898E38009F135E /* JZD_GroupChatNoticesTableViewCell.m in Sources */,
+				FF8992922186FB19009F135E /* JZD_FirstLoginPromptView.m in Sources */,
+				FF899397218AA548009F135E /* IJSD_ClassScheduleWeekTableViewCell.m in Sources */,
+				FF89941F218C0182009F135E /* IJSD_PublicListViewController.m in Sources */,
+				FF8993C0218AF03E009F135E /* IJSD_ClassScheduleMonthListTableViewCell.m in Sources */,
+				FF8992832186F23F009F135E /* JZD_AccountBabyInfoTableViewCell.m in Sources */,
+				FF8993D2218B02BC009F135E /* IJSD_ClassReviewSelectStudentViewController.m in Sources */,
+				FF89923F2186A71C009F135E /* SGImageButton_Vertical.m in Sources */,
+				FF8993342189532E009F135E /* IJSD_GradeInputSurePromptView.m in Sources */,
+				FF89927E2186F0DA009F135E /* IJSD_AccountSetViewController.m in Sources */,
+				FF89923D2186A71C009F135E /* SGSegmentedControlBottomView.m in Sources */,
+				FF8992692186B58B009F135E /* IJSD_CallNamesViewController.m in Sources */,
+				FF8992B621870B5A009F135E /* IJSD_AccountClassAwayDetailViewController.m in Sources */,
+				FF89930621884648009F135E /* IJXF_AdvertisingView.m in Sources */,
+				FF8992482186B183009F135E /* MainTabBarController.m in Sources */,
+				FF8993A6218AD3A2009F135E /* IJSD_ClassScheduleCourseDetailViewController.m in Sources */,
+				FF89936721898DE9009F135E /* JZD_GroupChatNoticesViewController.m in Sources */,
+				FF89920C2186A6DB009F135E /* FWEB_NetWorkHelper.m in Sources */,
+				FF8992552186B3EA009F135E /* IJSD_BasicViewController.m in Sources */,
+				FF8992D221873385009F135E /* JZD_QuickLoginTableViewCell.m in Sources */,
+				FF8993B4218AE2ED009F135E /* IJSD_ClassScheduleMonthViewController.m in Sources */,
+				FF8992132186A6DB009F135E /* UITableView+IJXF_Reflash.m in Sources */,
+				FF8993A9218AD8BC009F135E /* IJSD_ClassScheduleClassNumberViewController.m in Sources */,
+				FF8992A821870178009F135E /* JZD_ServeClassConditionListView.m in Sources */,
+				FF8993F4218BE41D009F135E /* JZD_ServeClassCommentDetailView.m in Sources */,
+				FF8992E021873959009F135E /* JZD_ForgetPwdPhoneView.m in Sources */,
+				FF89929A2186FB79009F135E /* JZD_AccountSetModifyPwdTableViewCell.m in Sources */,
+				FF8992AF21870798009F135E /* IJSD_AccountFeedbackDetailTableViewCell.m in Sources */,
+				FF8993E0218B1E77009F135E /* IJSD_ClassReviewTemplateViewController.m in Sources */,
 				FF1838162182AC2400C8E9B8 /* ViewController.m in Sources */,
+				FF89930E218846DE009F135E /* JZD_HomeCourseCollectionView.m in Sources */,
+				FF8993C4218AF31F009F135E /* IJSD_ClassScheduleMonthListView.m in Sources */,
+				FF899429218C055C009F135E /* IJSD_ChaLouBuQueTableViewCell.m in Sources */,
+				FF8993232188808D009F135E /* IJSD_SelectCampusAndExamPromptView.m in Sources */,
+				FF8993D9218B1B0A009F135E /* IJSD_ClassReviewTemplateTableViewCell.m in Sources */,
+				FF89934421898A75009F135E /* JZD_MessageAddressBookListView.m in Sources */,
+				FF89932A2189427D009F135E /* IJSD_GradeStudentListTableViewCell.m in Sources */,
+				FF89933E21898923009F135E /* JZD_MessageListTableViewCell.m in Sources */,
+				FF899418218BFF69009F135E /* IJSD_PublicListTableViewCell.m in Sources */,
+				FF89931F21887E39009F135E /* IJSD_SelectCampusAndExamPromptTableViewCell.m in Sources */,
+				FF899409218BE7E8009F135E /* JZD_ServeClassComentDetailContentViewController.m in Sources */,
+				FF8993B7218AE63C009F135E /* JZD_ServeCalendarView.m in Sources */,
+				FF8993F1218BE3CC009F135E /* JZD_ServeClassCommentDetailViewController.m in Sources */,
+				FF89937221898EAA009F135E /* JZD_GroupChatMemberListViewController.m in Sources */,
+				FF89935721898D0A009F135E /* JZD_GroupChatMemberTableViewCell.m in Sources */,
+				FF899313218846F8009F135E /* JZD_HomeCourseCollectionViewCell.m in Sources */,
+				FF899422218C027F009F135E /* IJSD_PublicDetailViewController.m in Sources */,
+				FF89923B2186A71C009F135E /* SGSegmentedControlStatic.m in Sources */,
+				FF89935F21898D71009F135E /* JZD_GroupChatMemberListView.m in Sources */,
+				FF899403218BE4CF009F135E /* JZD_ServeClassCommentDetailEvaluateContentTableViewCell.m in Sources */,
+				FF8992862186F2D2009F135E /* JZD_AccountSetView.m in Sources */,
+				FF8992142186A6DB009F135E /* FWEB_CommonTools.m in Sources */,
+				FF8992592186B406009F135E /* IJSD_BasicTableViewCell.m in Sources */,
+				FF89928E2186F99F009F135E /* JZD_AccountSetModifyPwdViewController.m in Sources */,
+				FF89928A2186F605009F135E /* JZD_AccountSetPromptView.m in Sources */,
+				FF899393218A9B0D009F135E /* IJSD_TeachingReportEditSuccessViewController.m in Sources */,
+				FF8992C92187331D009F135E /* JZD_FirstLoginView.m in Sources */,
+				FF8992AB21870195009F135E /* JZD_ServeClassConditionListViewController.m in Sources */,
+				FF89935221898CF0009F135E /* JZD_GroupChatMemberAndNoticeView.m in Sources */,
+				FF89931721885EC3009F135E /* IJSD_HomeSelectCampusTableViewCell.m in Sources */,
+				FF899303218845EE009F135E /* IJSD_HomeView.m in Sources */,
+				FF899434218C59A3009F135E /* IJSD_StudentsListTableViewCell.m in Sources */,
+				FF899452218DF929009F135E /* IJSD_DynamicSelectClassTableViewCell.m in Sources */,
+				FF8993A3218AAD49009F135E /* IJSD_ClassScheduleWeekViewController.m in Sources */,
+				FF899456218DFABA009F135E /* IJSD_DynamicSelectClassListView.m in Sources */,
+				FF8992FC21883514009F135E /* IJSD_CallNamesTableViewCell.m in Sources */,
+				FF8992402186A71C009F135E /* SGSegmentedControlDefault.m in Sources */,
+				FF8992102186A6DB009F135E /* NSDictionary+FWEB_NullDict.m in Sources */,
+				FF89932621893B72009F135E /* IJSD_GradeSelectClassViewController.m in Sources */,
+				FF8992F321880433009F135E /* JZD_PwdOrCodeLoginView.m in Sources */,
+				FF8993D5218B06D4009F135E /* IJSD_ClassReviewContentViewController.m in Sources */,
+				FF8992F7218804A8009F135E /* JZD_LoginHeaderView.m in Sources */,
 				FF1838212182AC2600C8E9B8 /* main.m in Sources */,
+				FF8992372186A71C009F135E /* XHStarRateView.m in Sources */,
+				FF89933121894E43009F135E /* IJSD_GradeInputSuccessViewController.m in Sources */,
+				FF8992D721873526009F135E /* JZD_FirstLoginHeaderView.m in Sources */,
+				FF8992DC21873927009F135E /* JZD_ForgetPwdPhoneViewController.m in Sources */,
+				FF89924E2186B35F009F135E /* FWEB_BasicApi.m in Sources */,
+				FF8992412186A71C009F135E /* SGNavigationItemTitleView.m in Sources */,
+				FF8992CE21873357009F135E /* JZD_PhoneCodePwdTableViewCell.m in Sources */,
+				FF89939C218AA849009F135E /* IJSD_ClassScheduleWeekNoTableViewCell.m in Sources */,
+				FF89938C2189AE7C009F135E /* IJSD_TeachingReportTotalEvaluateTableViewCell.m in Sources */,
+				FF8993802189A0ED009F135E /* IJSD_TeachingReportListView.m in Sources */,
+				FF89937821899BE0009F135E /* IJSD_TeachingReportListViewController.m in Sources */,
+				FF8993CF218B0061009F135E /* IJSD_ClassReviewListView.m in Sources */,
+				FF8993E7218BDF8E009F135E /* IJSD_ClassReviewHistoryListTableViewCell.m in Sources */,
+				FF899410218BF8AD009F135E /* IJSD_TeachingPlanListTableViewCell.m in Sources */,
+				FF89930A21884695009F135E /* JZD_HomeCourseTableViewCell.m in Sources */,
+				FF89920D2186A6DB009F135E /* UIImage+FWEB_Extension.m in Sources */,
+				FF8992E42187FDD1009F135E /* JZD_ForgetPwdCodeViewController.m in Sources */,
 				FF1838132182AC2400C8E9B8 /* AppDelegate.m in Sources */,
+				FF8993EB218BE124009F135E /* IJSD_ClassReviewHistoryListView.m in Sources */,
+				FF89937C21899F0F009F135E /* IJSD_TeachingReportListTableViewCell.m in Sources */,
+				FF8993B1218ADD57009F135E /* IJSD_ClassScheduleClassNumberListView.m in Sources */,
+				FF89944E218DF5AA009F135E /* IJSD_DynamicSelectClassViewController.m in Sources */,
+				FF89934821898A93009F135E /* JZD_AddressBookListTableViewCell.m in Sources */,
+				FF8993AD218ADB64009F135E /* IJSD_ClassScheduleClassNumberTableViewCell.m in Sources */,
+				FF89941C218C00F0009F135E /* IJSD_PublicListView.m in Sources */,
+				FF899406218BE7D1009F135E /* JZD_ServeClassComentDetailContentView.m in Sources */,
+				FF89943B218DE82F009F135E /* JZD_TimeTableSelectTimePromptView.m in Sources */,
+				FF8993E3218B262F009F135E /* IJSD_ClassReviewReviewViewController.m in Sources */,
+				FF8993BC218AE663009F135E /* JZD_ServeCalendarCollectionViewCell.m in Sources */,
+				FF8993872189A9B9009F135E /* IJSD_TeachingReportEditListTableViewCell.m in Sources */,
+				FF89940C218BF412009F135E /* IJSD_TeachingPlanViewController.m in Sources */,
+				FF89920E2186A6DB009F135E /* UIColor+FWEB_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,33 +1897,45 @@
 		};
 		FF18383B2182AC2600C8E9B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFA16D2FB341EF34D45790D /* Pods-YiXinYiJiaoShiDuan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472M9K6CW2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YiXinYiJiaoShiDuan/Utils/FuWuEBao.pch";
 				INFOPLIST_FILE = YiXinYiJiaoShiDuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chongqinghanlesi.YiXinYiJiaoShiDuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FF18383C2182AC2600C8E9B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC661F1BBB3038DD115F7287 /* Pods-YiXinYiJiaoShiDuan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 472M9K6CW2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YiXinYiJiaoShiDuan/Utils/FuWuEBao.pch";
 				INFOPLIST_FILE = YiXinYiJiaoShiDuan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.chongqinghanlesi.YiXinYiJiaoShiDuan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

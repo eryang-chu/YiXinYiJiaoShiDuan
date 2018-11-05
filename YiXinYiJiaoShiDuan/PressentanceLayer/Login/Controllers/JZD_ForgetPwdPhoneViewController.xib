@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JZD_ForgetPwdPhoneViewController">
+            <connections>
+                <outlet property="forgetPwdPhoneView" destination="Qr6-aK-3rg" id="30B-zN-dCt"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dI4-1W-j6e">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJW-FJ-FRP">
+                            <rect key="frame" x="15" y="20" width="40" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Yqj-Cn-K1k"/>
+                            </constraints>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backButtonClick:" destination="-1" eventType="touchUpInside" id="g26-Ch-rhl"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="忘记密码" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cu8-eu-TbA">
+                            <rect key="frame" x="147" y="20" width="82" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" priority="250" constant="42" id="ooL-Ny-r6u"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_back" translatesAutoresizingMaskIntoConstraints="NO" id="IbT-CE-xjF">
+                            <rect key="frame" x="15" y="20" width="10" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="kIA-VA-wAn"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.78823529410000004" green="0.1647058824" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="IJW-FJ-FRP" secondAttribute="bottom" id="3Bi-Lq-Cwy"/>
+                        <constraint firstItem="cu8-eu-TbA" firstAttribute="centerX" secondItem="dI4-1W-j6e" secondAttribute="centerX" id="IBJ-5c-R6a"/>
+                        <constraint firstItem="IbT-CE-xjF" firstAttribute="top" secondItem="dI4-1W-j6e" secondAttribute="top" constant="20" id="LSB-WQ-OwS"/>
+                        <constraint firstAttribute="bottom" secondItem="cu8-eu-TbA" secondAttribute="bottom" id="Lk1-oQ-ZiW"/>
+                        <constraint firstAttribute="bottom" secondItem="IbT-CE-xjF" secondAttribute="bottom" id="USd-zs-Iy5"/>
+                        <constraint firstItem="IJW-FJ-FRP" firstAttribute="leading" secondItem="dI4-1W-j6e" secondAttribute="leading" constant="15" id="Wfp-gp-pGF"/>
+                        <constraint firstItem="IbT-CE-xjF" firstAttribute="leading" secondItem="dI4-1W-j6e" secondAttribute="leading" constant="15" id="hDL-0h-IiH"/>
+                        <constraint firstItem="cu8-eu-TbA" firstAttribute="top" secondItem="dI4-1W-j6e" secondAttribute="top" constant="20" id="o46-Pp-H0c"/>
+                        <constraint firstItem="IJW-FJ-FRP" firstAttribute="top" secondItem="dI4-1W-j6e" secondAttribute="top" constant="20" id="pmc-MV-xtL"/>
+                        <constraint firstAttribute="height" constant="64" id="w7Y-fg-4ZO"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qr6-aK-3rg" customClass="JZD_ForgetPwdPhoneView">
+                    <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="dI4-1W-j6e" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6bk-p0-IOD"/>
+                <constraint firstAttribute="trailing" secondItem="Qr6-aK-3rg" secondAttribute="trailing" id="GJy-ub-RWw"/>
+                <constraint firstAttribute="bottom" secondItem="Qr6-aK-3rg" secondAttribute="bottom" id="MKn-cR-Gb6"/>
+                <constraint firstItem="Qr6-aK-3rg" firstAttribute="top" secondItem="dI4-1W-j6e" secondAttribute="bottom" id="l6k-gt-kL8"/>
+                <constraint firstItem="dI4-1W-j6e" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rN7-3X-khd"/>
+                <constraint firstItem="Qr6-aK-3rg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="s5b-uY-FHt"/>
+                <constraint firstAttribute="trailing" secondItem="dI4-1W-j6e" secondAttribute="trailing" id="sgX-jq-ZHv"/>
+            </constraints>
+            <point key="canvasLocation" x="57.5" y="62.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back" width="9" height="16"/>
+    </resources>
+</document>

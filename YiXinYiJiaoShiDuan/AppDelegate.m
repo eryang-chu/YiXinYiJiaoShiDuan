@@ -6,6 +6,9 @@
 //  Copyright © 2018年 楚二洋. All rights reserved.
 //
 
+#import "JZD_FirstLoginViewController.h"
+#import "JZD_PwdOrCodeLoginViewController.h"
+
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
@@ -17,6 +20,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //判断用户是否第一次登录
+    BOOL isFirst = [USER_DEFAULTS boolForKey:USER_IS_FIRST_LOGIN];
+    if (!isFirst) {
+        NSLog(@"是第一次登录");
+        //首次登录
+        self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        JZD_FirstLoginViewController *vc = [[JZD_FirstLoginViewController alloc] init];
+        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+        self.window.rootViewController = nav;
+        [self.window makeKeyAndVisible];
+    } else {
+        if (![USER_DEFAULTS boolForKey:USER_IS_LOGIN]) {
+            //跳转到登录界面
+            self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+            JZD_PwdOrCodeLoginViewController *vc = [[JZD_PwdOrCodeLoginViewController alloc] init];
+            UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+            self.window.rootViewController = nav;
+            [self.window makeKeyAndVisible];
+        }
+    }
     return YES;
 }
 

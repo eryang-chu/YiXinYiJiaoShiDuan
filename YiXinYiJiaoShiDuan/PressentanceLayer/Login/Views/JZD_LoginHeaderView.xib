@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qzk-yi-WZa" customClass="JZD_LoginHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1i-cT-mWE">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="215"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_loginbackhead" translatesAutoresizingMaskIntoConstraints="NO" id="wfb-It-pyw">
+                            <rect key="frame" x="0.0" y="64" width="375" height="151"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MBT-rs-AvJ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                            <color key="backgroundColor" red="0.78823529410000004" green="0.1647058824" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="215" id="A3c-9n-tQ7"/>
+                        <constraint firstItem="wfb-It-pyw" firstAttribute="top" secondItem="MBT-rs-AvJ" secondAttribute="bottom" id="EUQ-s8-CsU"/>
+                        <constraint firstItem="wfb-It-pyw" firstAttribute="leading" secondItem="z1i-cT-mWE" secondAttribute="leading" id="El8-gl-KoG"/>
+                        <constraint firstItem="wfb-It-pyw" firstAttribute="top" secondItem="z1i-cT-mWE" secondAttribute="top" constant="64" id="J1V-hV-j4H"/>
+                        <constraint firstAttribute="bottom" secondItem="wfb-It-pyw" secondAttribute="bottom" id="P1g-LV-EO3"/>
+                        <constraint firstItem="MBT-rs-AvJ" firstAttribute="leading" secondItem="z1i-cT-mWE" secondAttribute="leading" id="hHn-dq-4eI"/>
+                        <constraint firstItem="MBT-rs-AvJ" firstAttribute="top" secondItem="z1i-cT-mWE" secondAttribute="top" id="u7I-aU-d7d"/>
+                        <constraint firstAttribute="trailing" secondItem="MBT-rs-AvJ" secondAttribute="trailing" id="uX3-pN-6cq"/>
+                        <constraint firstAttribute="trailing" secondItem="wfb-It-pyw" secondAttribute="trailing" id="uxO-4N-x0e"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJp-28-U2j">
+                    <rect key="frame" x="40" y="225" width="140" height="47"/>
+                    <color key="backgroundColor" red="0.78823529410000004" green="0.1647058824" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="R1l-n9-cQ1"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="密码登录">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="pwdLoginButtonClick:" destination="qzk-yi-WZa" eventType="touchUpInside" id="Sf6-Vn-Ln4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRs-DK-b1y">
+                    <rect key="frame" x="195" y="225" width="140" height="47"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="47" id="lNe-l0-elh"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="短信登录">
+                        <color key="titleColor" red="0.78823529410000004" green="0.1647058824" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="codeLoginButtonClick:" destination="qzk-yi-WZa" eventType="touchUpInside" id="DVR-ca-ysM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="gRs-DK-b1y" firstAttribute="top" secondItem="z1i-cT-mWE" secondAttribute="bottom" constant="10" id="1bg-ef-AV8"/>
+                <constraint firstItem="gRs-DK-b1y" firstAttribute="leading" secondItem="wJp-28-U2j" secondAttribute="trailing" constant="15" id="2Xc-6F-PsN"/>
+                <constraint firstItem="z1i-cT-mWE" firstAttribute="top" secondItem="qzk-yi-WZa" secondAttribute="top" id="7Bz-QN-TBS"/>
+                <constraint firstItem="wJp-28-U2j" firstAttribute="top" secondItem="z1i-cT-mWE" secondAttribute="bottom" constant="10" id="INQ-KZ-ACW"/>
+                <constraint firstItem="z1i-cT-mWE" firstAttribute="leading" secondItem="qzk-yi-WZa" secondAttribute="leading" id="UuX-gl-7gS"/>
+                <constraint firstItem="gRs-DK-b1y" firstAttribute="width" secondItem="wJp-28-U2j" secondAttribute="width" id="WJm-dA-suT"/>
+                <constraint firstAttribute="trailing" secondItem="z1i-cT-mWE" secondAttribute="trailing" id="gHh-H7-ypg"/>
+                <constraint firstAttribute="trailing" secondItem="gRs-DK-b1y" secondAttribute="trailing" constant="40" id="vjL-Nw-gNB"/>
+                <constraint firstItem="wJp-28-U2j" firstAttribute="leading" secondItem="qzk-yi-WZa" secondAttribute="leading" constant="40" id="xtj-7H-o3B"/>
+            </constraints>
+            <connections>
+                <outlet property="codeButton" destination="gRs-DK-b1y" id="4Di-S9-XSo"/>
+                <outlet property="pwdButton" destination="wJp-28-U2j" id="Izd-jb-iCL"/>
+            </connections>
+            <point key="canvasLocation" x="4.5" y="89.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_loginbackhead" width="375" height="136"/>
+    </resources>
+</document>

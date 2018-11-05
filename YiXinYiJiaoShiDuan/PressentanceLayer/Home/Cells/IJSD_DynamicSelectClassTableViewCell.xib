@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IJSD_DynamicSelectClassTableViewCell" rowHeight="175" id="KGk-i7-Jjw" customClass="IJSD_DynamicSelectClassTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="175"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="174.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEI-rq-bQ8">
+                        <rect key="frame" x="0.0" y="173.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="hN1-03-104"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_qianforword" translatesAutoresizingMaskIntoConstraints="NO" id="CdY-9H-q31">
+                        <rect key="frame" x="298" y="0.0" width="10" height="173.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="YJb-EL-buS"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_zhiweixuan" translatesAutoresizingMaskIntoConstraints="NO" id="pZh-WD-qOL">
+                        <rect key="frame" x="12" y="0.0" width="20" height="173.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="HaS-eH-M0u"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4年级奥数拓展4-2班（18寒）" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vH9-IJ-tEL">
+                        <rect key="frame" x="40" y="0.0" width="250" height="173.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIt-7J-BcA">
+                        <rect key="frame" x="1" y="1" width="50" height="171.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="tjq-Vz-0mB"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <connections>
+                            <action selector="selectButtonClick:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="3X6-aq-dxG"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vH9-IJ-tEL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0DA-ch-Tvz"/>
+                    <constraint firstItem="CdY-9H-q31" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3qF-su-KER"/>
+                    <constraint firstAttribute="bottom" secondItem="fEI-rq-bQ8" secondAttribute="bottom" id="DAC-cL-qP9"/>
+                    <constraint firstItem="fEI-rq-bQ8" firstAttribute="top" secondItem="pZh-WD-qOL" secondAttribute="bottom" id="IkF-Rj-xQu"/>
+                    <constraint firstItem="pZh-WD-qOL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="Juf-nE-Qmh"/>
+                    <constraint firstItem="hIt-7J-BcA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="LzM-8F-YQz"/>
+                    <constraint firstItem="pZh-WD-qOL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Vyf-xx-Of5"/>
+                    <constraint firstAttribute="trailing" secondItem="CdY-9H-q31" secondAttribute="trailing" constant="12" id="c99-VL-iKh"/>
+                    <constraint firstItem="fEI-rq-bQ8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cfJ-Ps-60D"/>
+                    <constraint firstItem="hIt-7J-BcA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="1" id="gaH-zl-ZT8"/>
+                    <constraint firstItem="fEI-rq-bQ8" firstAttribute="top" secondItem="CdY-9H-q31" secondAttribute="bottom" id="k53-95-zMi"/>
+                    <constraint firstItem="CdY-9H-q31" firstAttribute="leading" secondItem="vH9-IJ-tEL" secondAttribute="trailing" constant="8" id="nVI-Nj-oa6"/>
+                    <constraint firstItem="fEI-rq-bQ8" firstAttribute="top" secondItem="vH9-IJ-tEL" secondAttribute="bottom" id="ptM-eq-4K3"/>
+                    <constraint firstItem="fEI-rq-bQ8" firstAttribute="top" secondItem="hIt-7J-BcA" secondAttribute="bottom" constant="1" id="rG4-29-bNF"/>
+                    <constraint firstAttribute="trailing" secondItem="fEI-rq-bQ8" secondAttribute="trailing" id="uKt-nK-bNr"/>
+                    <constraint firstItem="vH9-IJ-tEL" firstAttribute="leading" secondItem="pZh-WD-qOL" secondAttribute="trailing" constant="8" id="xD4-eG-ujM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="selectButton" destination="hIt-7J-BcA" id="qBA-zN-npj"/>
+                <outlet property="selectImage" destination="pZh-WD-qOL" id="z9Q-yZ-1hm"/>
+                <outlet property="titleLabel" destination="vH9-IJ-tEL" id="G2b-Tu-OHf"/>
+            </connections>
+            <point key="canvasLocation" x="63" y="119.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_qianforword" width="9" height="16"/>
+        <image name="ic_zhiweixuan" width="20" height="20"/>
+    </resources>
+</document>

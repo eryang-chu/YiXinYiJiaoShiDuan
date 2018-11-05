@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="153" id="KGk-i7-Jjw" customClass="IJSD_ClassReviewTemplateTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="152.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Unc-kT-108">
+                        <rect key="frame" x="12" y="6" width="296" height="140.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上课认真听讲，及时完成课后作业，有不懂的问题会主动提问，并进行攻克，该生综合表现很好，希望可以再接再厉。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pna-hh-iyi">
+                                <rect key="frame" x="8" y="8" width="280" height="124.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Pna-hh-iyi" secondAttribute="bottom" constant="8" id="073-uA-6EM"/>
+                            <constraint firstItem="Pna-hh-iyi" firstAttribute="top" secondItem="Unc-kT-108" secondAttribute="top" constant="8" id="6ui-Uh-RaI"/>
+                            <constraint firstAttribute="trailing" secondItem="Pna-hh-iyi" secondAttribute="trailing" constant="8" id="HU9-TC-gLE"/>
+                            <constraint firstItem="Pna-hh-iyi" firstAttribute="leading" secondItem="Unc-kT-108" secondAttribute="leading" constant="8" id="kNI-rj-PMv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="Unc-kT-108" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="7Rl-bY-tyg"/>
+                    <constraint firstAttribute="trailing" secondItem="Unc-kT-108" secondAttribute="trailing" constant="12" id="ABg-Az-K49"/>
+                    <constraint firstItem="Unc-kT-108" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="VfH-q5-5uR"/>
+                    <constraint firstAttribute="bottom" secondItem="Unc-kT-108" secondAttribute="bottom" constant="6" id="ZwC-c3-Aly"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="contentLabel" destination="Pna-hh-iyi" id="LcC-9F-tup"/>
+                <outlet property="templateView" destination="Unc-kT-108" id="4YS-nk-iKX"/>
+            </connections>
+            <point key="canvasLocation" x="61" y="-5"/>
+        </tableViewCell>
+    </objects>
+</document>
